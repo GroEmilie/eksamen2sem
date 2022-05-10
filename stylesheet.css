@@ -14,11 +14,7 @@ html,
 body,
 .container {
   height: 100%;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  width:auto;
 }
 
 .container {
@@ -31,7 +27,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
+  /* background-color: #fff; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
