@@ -14,4 +14,19 @@ footer
     font-family: gotham;
     font-weight: 300;
     font-size: 15px;
+
+    padding: calc(var(--view-width-radical-px, 3rem)*2) var(--view-width-radical-px,3rem);
+    line-height: 1;
+    color: #fff;
+    background-color: #173448;
+    margin-bottom: 3rem;
+    margin-bottom: calc(var(--view-width-radical-px, 2em)/2*2);
+    margin-top: -3rem;
+    margin-top: calc(var(--view-width-radical-px, 2em)/2*-2);
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 3rem;
+    bottom: calc(var(--view-width-radical-px, 2em)/2*2);
+    z-index: 0;
+    transform: translateZ(-1px);
 }
