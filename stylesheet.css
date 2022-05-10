@@ -11,5 +11,7 @@ font-family: 'Gotham Ultra', sans-serif;
 
 footer
 {
-    font-weight: 100;
+    font-family: gotham;
+    font-weight: 300;
+    font-size: 15px;
 }
