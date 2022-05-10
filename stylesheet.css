@@ -9,18 +9,28 @@ font-family: 'Gotham Book', sans-serif;
 font-family: 'Gotham Ultra', sans-serif;
 }
 
-
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a a a"
+  "b b c"
+  "d d d";
+}
 .cases {
+  grid-area: b;
     display: grid;
-    width: auto;
+    width: 100%;
     height: auto;
-    background-color: #fff;
-    border-style: dashed;
+    margin-bottom: 20px;
+    background-color: #F1F1F1;
+    border-style: hidden;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
-    "a b c"
-    "d e f";
+    "a b"
+    "c d";
 }
 
 /* .midspar {
@@ -30,20 +40,20 @@ font-family: 'Gotham Ultra', sans-serif;
 } */
 
 .midspartekst {
-    grid-area: ;
+    grid-area: b;
     font-family: gotham;
     font-size: 15px;
     color: #d4a024;
 }
 
 .button {
-    grid-area: b;
+    grid-area: d;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 275px;
-    margin-left: 200px;
+    margin-top: 300px;
+    margin-left: 50%;
     width: 100px;
     height: 30px;
     border-style: none;
@@ -56,6 +66,7 @@ font-family: 'Gotham Ultra', sans-serif;
 
 footer
 {
+  grid-area: d;
     font-family: gotham;
     font-weight: 300;
     font-size: 15px;
