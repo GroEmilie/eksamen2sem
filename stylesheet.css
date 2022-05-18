@@ -372,6 +372,7 @@ footer .footer1 {
 h3 {
     padding-bottom: 2%;
     margin-top: 15%;
+    text-align: center;
 }
 
 .copenhagen p {
@@ -397,4 +398,108 @@ h3 {
 
 .footerlinks a {
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !!!! CASESIDEN !!!! */
+.boconceptbillede  {
+    height: 40vh;
+    width: 40vh;
+}
+.boconceptblue {
+grid-area: a;
+border-style: none;
+background-color: var(--blåknap);
+box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+color: var(--blå);
+margin-left: 70%;
+height: 30px;
+width: 150px;
 }
