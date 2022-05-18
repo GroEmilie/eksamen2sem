@@ -513,6 +513,7 @@ h1.boconcept{
     grid-area: b;
     text-align: center;
     padding-bottom: 4%;
+    font-size: 17px;
 }
 
 .boconceptbillede  {
@@ -547,7 +548,7 @@ h1.boconcept{
     height: 50px;
     width: 60px;
     margin-left: 40%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 /* MINE TILBUD */
@@ -564,12 +565,14 @@ h1.boconcept{
 h1.minetilbud{
     grid-area: a;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
+    color: var(--mørkgrøn);
 }
 .minetilbudtekst {
     grid-area: b;
     text-align: center;
     padding-bottom: 4%;
+    font-size: 17px;
 }
 
 .minetilbudbillede  {
@@ -593,6 +596,108 @@ h1.minetilbud{
 }
 
 .minetilbudgreen i.material-icons {
+    font-size: 25px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+
+/* MIDDELFART SPARREKASSE */
+.middelfart {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+}
+
+h1.middelfart{
+    grid-area: a;
+    text-align: center;
+    padding-top: 5%;
+    color: var(--rød);
+}
+.middelfarttekst {
+    grid-area: b;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 17px;
+}
+
+.middelfartbillede  {
+    grid-area: c;
+    height: 40vh;
+    width: 40vh;
+    margin: 0 auto;
+}
+
+.middelfartred {
+    grid-area: c;
+    border-style: none;
+    background-color: var(--rødknap);
+    box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+    color: var(--rød);
+    font-size: 16px;
+    margin-left: 38.5%;
+    height: 60px;
+    width: 230px;
+    margin-top: 80%;
+    text-align: center;
+}
+
+.middelfartred i.material-icons {
+    font-size: 25px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+/* ENERGI FYN */
+.energifyn {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+}
+
+h1.energifyn{
+    grid-area: a;
+    text-align: center;
+    padding-top: 5%;
+    color: var(--lysegrøn);
+}
+.energifyntekst {
+    grid-area: b;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 17px;
+}
+
+.energifynbillede  {
+    grid-area: c;
+    height: 40vh;
+    width: 40vh;
+    margin: 0 auto;
+}
+
+.energifynlightgreen {
+    grid-area: c;
+    border-style: none;
+    background-color: var(--lysgrønknap);
+    box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+    color: var(--lysegrøn);
+    font-size: 16px;
+    height: 60px;
+    width: 230px;
+    margin-top: 80%;
+    text-align: center;
+}
+
+.energifynlightgreen i.material-icons {
     font-size: 25px;
     padding-right: 50px;
     text-align: center;
