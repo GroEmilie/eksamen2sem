@@ -25,23 +25,47 @@ font-family: 'Gotham Ultra', sans-serif;
   --lysgrønknap:#e1ede9;
 }
 
+h1 {
+  color: var(--blå);
+  font-family: gotham light;
+  font-size: 25px;
+}
+
 /* karriere side mobil version  */
 
 .pentagonplace {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a"
+  "b";
 
 }
 
 .pentagon {
+  grid-area: a;
   height: 175px;
   width: 175px;
   margin-left: 10%;
 }
 
 .redtext {
+  grid-area: a;
+  margin-top: 50px;
+  margin-left: 18%;
   font-size: 10px;
   font-family: gotham light;
   color: var(--rød);
-  position:
+}
+
+.aoga {
+  grid-area: a;
+  margin-top: 70px;
+  margin-left: 5%;
+
+  
+
 }
 
 
