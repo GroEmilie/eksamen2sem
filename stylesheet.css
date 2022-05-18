@@ -9,25 +9,37 @@ font-family: 'Gotham Book', sans-serif;
 font-family: 'Gotham Ultra', sans-serif;
 }
 
+:root {
+  --rød: #ff5b4c;
+  --blå: #6b9299; 
+  --mørkgrøn: #65734b;
+  --lysegrøn: #7accb1;  
+  /* knapper */
+  --rødknap:#f5d6d1;
+  --blåknap:#dbe5e6;
+  --mørkgrønknap:#d9dad4;
+  --lysgrønknap:#e1ede9;
+}
+
+/* karriere side mobil version  */
+
+.pentagonplace {
+
+}
+
 .pentagon {
-  position: relative;
-  width: 54px;
-  box-sizing: content-box;
-  border-width: 50px 18px 0;
-  border-style:dotted black;
-  border-color: transparent red;
+  height: 175px;
+  width: 175px;
+  margin-left: 10%;
 }
-.pentagon:before {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -85px;
-  left: -18px;
-  border-width: 0 45px 35px;
-  border-style: solid black;
-  border-color: transparent transparent red ;
+
+.redtext {
+  font-size: 10px;
+  font-family: gotham light;
+  color: var(--rød);
+  position:
 }
+
 
 
 
