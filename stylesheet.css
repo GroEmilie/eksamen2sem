@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
 html
 {
 font-family: 'Gotham', sans-serif;
@@ -41,15 +45,49 @@ font-family: 'Gotham Ultra', sans-serif;
 }
 
 
-
-
-footer
-{
-  grid-area: d;
+footer {
     font-family: gotham;
     font-weight: 300;
     font-size: 15px;
     line-height: 1;
     color: #fff;
-    background-color: #173448;
+    background-color: #739096;
+    margin: 0 0 0 0;
+}
+
+footer .footer1 {
+    margin: 30%;
+}
+
+.copenhagen {
+    padding-top: 20%;
+}
+h3 {
+    padding-bottom: 2%;
+    margin-top: 15%;
+}
+
+.copenhagen p {
+    margin-top: 5%; 
+    margin-bottom: 10%;
+}
+.odense p {
+    margin-top: 5%; 
+    margin-bottom: 10%;
+}
+.aarhus p {
+    margin-top: 5%; 
+    margin-bottom: 10%;
+}
+.malmoe p {
+    margin-top: 5%; 
+    margin-bottom: 10%;
+}
+.info p {
+    margin-top: 5%; 
+    margin-bottom: 10%;
+}
+
+.footerlinks a {
+    color: #fff;
 }
