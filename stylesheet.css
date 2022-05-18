@@ -175,6 +175,8 @@ h1 {
   margin-left: 5%;
 }
 
+/* job clientdirector  */
+
 .clientdirector {
   display: grid;
   grid-template-columns: auto;
@@ -185,17 +187,169 @@ h1 {
   "c"
 }
 
+.pentiavideo {
+  margin-top: 10%;
+  grid-area:a;
+  width: 100%;
+}
+
+box {
+  grid-area: a;
+  z-index: 1;
+  height: 100px;
+  background-color: green;
+}
+
 .green {
   grid-area: a;
+  z-index: 2;
+  margin-top: 195px;
   border-style: none;
-  background-color: rgba(103, 114, 80, 25%);
+  background-color: var(--mørkgrønknap);
   box-shadow: 0 0.5px 0 0.5px #e5e2e2;
   color:#65734b;
   margin-left: 70%;
   height: 30px;
   width: 150px;
-
 }
+
+.titelgreen {
+  grid-area: b;
+  font-family: gotham black;
+  margin-top: 15px;
+  text-align: center;
+  color: #65734b;
+}
+
+p {
+  font-size: 15px;
+  font-family: gotham light;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+/* job senior UX designer */
+
+.senioruxdesigner {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "a"
+  "b"
+  "c"
+}
+
+.blue {
+  grid-area: a;
+  border-style: none;
+  background-color: var(--blåknap);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color: var(--blå);
+  margin-left: 70%;
+  height: 30px;
+  width: 150px;
+}
+
+.titelblue {
+  grid-area: b;
+  font-family: gotham black;
+  margin-top: 15px;
+  text-align: center;
+  color: var(--blå);
+}
+
+p {
+  font-size: 15px;
+  font-family: gotham light;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+/* job frontend konsulent */
+
+.frontendkonsulent {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "a"
+  "b"
+  "c"
+}
+
+.lightgreen {
+  grid-area: a;
+  border-style: none;
+  background-color: var(--lysgrønknap);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color: var(--lysegrøn);
+  margin-left: 70%;
+  height: 30px;
+  width: 150px;
+}
+
+.titellightgreen {
+  grid-area: b;
+  font-family: gotham black;
+  margin-top: 15px;
+  text-align: center;
+  color: var(--lysegrøn);
+}
+
+p {
+  font-size: 15px;
+  font-family: gotham light;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+/* job digital løsningsarkitekt */
+
+.digitalloesningsarkitekt {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "a"
+  "b"
+  "c"
+}
+
+.red {
+  grid-area: a;
+  border-style: none;
+  background-color: var(--rødknap);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color: var(--rød);
+  margin-left: 70%;
+  height: 30px;
+  width: 150px;
+}
+
+.titelred {
+  grid-area: b;
+  font-family: gotham black;
+  margin-top: 15px;
+  text-align: center;
+  color: var(--rød);
+}
+
+p {
+  font-size: 15px;
+  font-family: gotham light;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+/* 
+job senior backend konsulent, stil angivet */
+
+/* job senior backend konsulent aarhus, stil angivet */
+
+/* job del dit cv, stil angivet */
+
+
+
 
 
 footer {
