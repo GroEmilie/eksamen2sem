@@ -26,6 +26,10 @@ font-family: 'Gotham Ultra', sans-serif;
 }
 
 /*navigation mobil side*/
+.logo {
+    height: 90px;
+}
+
 ul {
     display: flex;
     width: 100%;
@@ -35,11 +39,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFFDF7;
+    background-color: var(--blå);
  }
  
- ul:hover {
-     background-color:#5F7470;
+ul:hover {
+     background-color: var(--blå);
  }
  
  li {
@@ -48,13 +52,16 @@ ul {
  
  li a, .dropbtn {
    display: inherit;
-   color: #D7816A;
+   color: #fff;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
  }
- 
- 
+ a .material-icons {
+     font-size: 48px;
+     padding-top: 5px;
+ }
+
  li.dropdown {
    display: inline-block;
    min-width: 375px;
@@ -64,9 +71,9 @@ ul {
    display: none;
    font-size: 20px;
    position: absolute;
-   background-color: rgba(95, 116, 112, 0.8);
+   background-color: var(--blå);
    min-width: 100%;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
    z-index: 1;
  }
  
@@ -76,11 +83,11 @@ ul {
    width: 100%;
    text-decoration: none;
    display: block;
-   text-align: center;
+   text-align: right;
  }
  
  .dropdown-content a:hover {
-     background-color: #5F7470;
+     background-color: var(--blå);
     }
  
  .dropdown:hover .dropdown-content {
@@ -94,17 +101,15 @@ ul {
  ul a {
     text-decoration: none;
     list-style-type: none;
+    font-family: gotham light;
  }
  
  ul a:hover {
-     color: #D7816A;
+     color: var(--blåknap);
  }
  
- .stormenu {
-     display: none;
- }
  
- .menu {
+.menu {
      display: flex;
      width: 100%;
      font-size: 30px;
@@ -113,17 +118,17 @@ ul {
      align-items: center;
  }
  
- .menu a {
-     display: block;
-     padding: 15px 5px;
- 
+.menu a {
+    display: block;
+    padding: 15px 10px;
+    float: right;
  }
  
  
  .item {
      width: 100%;
      text-align: center;
-     /* display:none; */
+     display: none;
      font-size: 20px;
      padding: 10px;
      color: white;
@@ -199,7 +204,7 @@ footer {
     font-size: 15px;
     line-height: 1;
     color: #fff;
-    background-color: #739096;
+    background-color: var(--blå);
     margin: 0 0 0 0;
 }
 
