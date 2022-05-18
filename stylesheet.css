@@ -77,10 +77,14 @@ h1 {
 
 .green {
   grid-area: a;
-  border-style: solid black;
+  border-style: none;
+  background-color: rgba(103, 114, 80, 25%);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color:#65734b;
+  margin-left: 70%;
   height: 30px;
   width: 150px;
-  
+
 }
 
 
