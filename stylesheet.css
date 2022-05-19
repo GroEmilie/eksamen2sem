@@ -379,7 +379,7 @@ footer {
 }
 
 footer .footer1 {
-    margin: 30%;
+    margin-top: 30%;
 }
 
 .copenhagen {
@@ -554,6 +554,8 @@ h1.boconcept{
     font-size: 25px;
     padding-left: 50px;
     text-align: center;
+    position: relative;
+    top: 5px;
 }
 
 /* PENTAGON */
@@ -612,6 +614,8 @@ h1.minetilbud{
     font-size: 25px;
     padding-right: 50px;
     text-align: center;
+    position: relative;
+    top: 5px;
 }
 
 
@@ -664,6 +668,8 @@ h1.middelfart{
     font-size: 25px;
     padding-left: 50px;
     text-align: center;
+    position: relative;
+    top: 5px;
 }
 
 /* ENERGI FYN */
@@ -714,4 +720,34 @@ h1.energifyn{
     font-size: 25px;
     padding-right: 50px;
     text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.pentagonsemere {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a";
+}
+.pentagontyk {
+  height: 90px;
+  width: 100px;
+  margin-left: 36.5%;
+  margin-top: 10%;
+  grid-area: a;
+}
+
+.semere {
+  grid-area: a;
+  margin-top: 18%;
+  color: var(--lysegrøn);
+  font-size: 17px;
+}
+
+.voreskunder {
+  color: var(--rød);
+  margin-top: 20%;
+  font-family: 'Gotham';
 }
