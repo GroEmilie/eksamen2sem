@@ -202,11 +202,11 @@ h2 {
   
 }
 
-box {
+.greenbox {
   grid-area: a;
   z-index: 1;
-  margin-top: 37px;
-  height: 210px;
+  margin-top: 41px;
+  height: 240px;
   width:100%;
   background-color: rgba(103, 114, 80, 25%);
 }
@@ -214,14 +214,15 @@ box {
 .green {
   grid-area: a;
   z-index: 2;
-  margin-top: 270px;
+  margin-top: 250px;
   border-style: none;
   background-color: var(--mørkgrønknap);
-  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
   color:#65734b;
-  margin-left: 65%;
-  height: 30px;
-  width: 150px;
+  text-align: flex-start;
+  margin-left: 53%;
+  height: 50px;
+  width: 200px;
 }
 
 .titelgreen {
@@ -251,15 +252,33 @@ p {
   "c"
 }
 
+.greatplacetowork {
+  grid-area: a;
+  margin-top: 40px;
+  width: 52vh;
+  height: 250px;
+}
+
+.bluebox {
+  grid-area: a;
+  z-index: 1;
+  margin-top: 39px;
+  height: 230px;
+  width:100%;
+  background-color: rgba(115, 144, 150, 25%);
+}
+
 .blue {
   grid-area: a;
+  z-index: 2;
   border-style: none;
   background-color: var(--blåknap);
-  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
   color: var(--blå);
-  margin-left: 70%;
-  height: 30px;
-  width: 150px;
+  margin-top: 245px;
+  margin-left: 53%;
+  height: 50px;
+  width: 200px;
 }
 
 .titelblue {
@@ -271,6 +290,7 @@ p {
 }
 
 p {
+  grid-area: c;
   font-size: 15px;
   font-family: gotham light;
   text-align: center;
@@ -289,15 +309,34 @@ p {
   "c"
 }
 
+.planke {
+  grid-area: a;
+  margin-top: 40px;
+  width: 52vh;
+  height: 225px;
+
+}
+
+.lightgreenbox {
+  grid-area: a;
+  z-index: 1;
+  margin-top: 39px;
+  height: 230px;
+  width:100%;
+  background-color: rgba(140, 195, 172, 25%);
+}
+
 .lightgreen {
   grid-area: a;
+  z-index: 2;
   border-style: none;
   background-color: var(--lysgrønknap);
-  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
   color: var(--lysegrøn);
-  margin-left: 70%;
-  height: 30px;
-  width: 150px;
+  margin-left: 53%;
+  margin-top: 245px;
+  height: 50px;
+  width: 200px;
 }
 
 .titellightgreen {
@@ -309,6 +348,7 @@ p {
 }
 
 p {
+  grid-area: c;
   font-size: 15px;
   font-family: gotham light;
   text-align: center;
@@ -715,3 +755,6 @@ h1.energifyn{
     padding-right: 50px;
     text-align: center;
 }
+
+
+style="color:#994c33"
