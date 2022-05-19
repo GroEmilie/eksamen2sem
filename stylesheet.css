@@ -134,11 +134,19 @@ ul:hover {
      color: white;
  }
 
+/* genrelle elementer */
+
 
 h1 {
   color: var(--blå);
   font-family: gotham light;
   font-size: 25px;
+}
+
+h2 {
+  color: var(--blå);
+  font-family: gotham black;
+  font-size: 18px;
 }
 
 /* karriere side mobil version  */
