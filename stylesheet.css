@@ -786,12 +786,259 @@ h1.energifyn{
   font-size: 17px;
 }
 
+
+
+
+
+/* style="color:#994c33" */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !!!!! VORES KUNDER !!!!! */
+
 .voreskunder {
   color: var(--rød);
   margin-top: 20%;
   font-family: 'Gotham';
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
+.voreskundercase {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "a1 a2"
+  "b1 b2"
+  "c1 c2"
+  "d1 d2"
+  "e1 e2"
+  "f1 f2"
+  "g1 g2"
+  "h1 h2"
+  "i1 i2"
+  "j1 j2"
+  "k1 k2"
+  "l1 l2"
+  ;
+}
 
+.leopharma {
+  grid-area: a1;
+  width: 100%;
+  height: 120%;
+  }
 
-style="color:#994c33"
+.folketinget {
+  grid-area: a2;
+  width: 100%;
+  height: 120%;
+}
+
+.lmwind {
+  grid-area: b1;
+  width: 100%;
+  height: 120%;
+}
+
+.chrhansen {
+  grid-area: b2;
+  width: 100%;
+  height: 120%;
+}
+
+.boconcept {
+  grid-area: c1;
+  width: 100%;
+  height: 120%;
+}
+
+.huscompagniet {
+  grid-area: c2;
+  width: 100%;
+  height: 120%;
+}
+
+.dtu {
+  grid-area: d1;
+  width: 100%;
+  height: 120%;
+}
+
+.atp {
+  grid-area: d2;
+  width: 100%;
+  height: 120%;
+}
+
+.bluewatershipping {
+  grid-area: e1;
+  width: 100%;
+  height: 120%;
+}
+
+.fri {
+  grid-area: e2;
+  width: 100%;
+  height: 120%;
+}
+
+.kongelige {
+  grid-area: f1;
+  width: 100%;
+  height: 120%;
+}
+
+.erhvervsstyrelsen {
+  grid-area: f2;
+  width: 100%;
+  height: 120%;
+}
+
+.danskespil {
+  grid-area: g1;
+  width: 100%;
+  height: 120%;
+}
+
+.rsd {
+  grid-area: g2;
+  width: 100%;
+  height: 120%;
+}
+
+.struers {
+  grid-area: h1;
+  width: 100%;
+  height: 120%;
+}
+
+.domstolsstyrelsen {
+  grid-area: h2;
+  width: 100%;
+  height: 120%;
+}
+
+.diabetes {
+  grid-area: i1;
+  width: 100%;
+  height: 120%;
+}
+
+.banedanmark {
+  grid-area: i2;
+  width: 100%;
+  height: 120%;
+}
+
+.forbrugsforeningen {
+  grid-area: j1;
+  width: 100%;
+  height: 120%;
+}
+
+.minetilbudlogo {
+  grid-area: j2;
+  width: 100%;
+  height: 120%;
+}
+
+.rejsekort {
+  grid-area: k1;
+  width: 100%;
+  height: 120%;
+}
+
+.fof {
+  grid-area: k2;
+  width: 100%;
+  height: 120%;
+}
+
+.energistyrelsen {
+  grid-area: l1;
+  width: 100%;
+  height: 120%;
+}
+
+.krifa {
+  grid-area: l2;
+  width: 100%;
+  height: 120%;
+}
