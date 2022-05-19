@@ -666,6 +666,7 @@ p {
   font-family: gotham light;
   text-align: center;
   padding: 5px 5px 5px 5px;
+  color: #333232;
 }
 
 /* job senior UX designer */
@@ -1184,10 +1185,92 @@ h3 {
 
 
 
-
-
 /*  !!!!!! BOCONCEPT !!!!!!! */
+.redtextboconcept {
+  font-size: 13px;
+  font-family: gotham light;
+  color: var(--rød);
+  margin-top: 12%;
+  margin-left: 5%;
+}
 
+h1.boconcepth1 {
+  margin-left: 5%;
+  margin-top: 1%;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+p.tekstboconcept {
+  font-size: 14px;
+  font-family: gotham light;
+  text-align: left;
+  margin-left: 4%;
+  line-height: 1.3;
+  margin-top: 4%
+}
+
+.pentagoncase {
+  width: 80%;
+  padding-left: 10%;
+}
+
+.billedeoverlap {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "a" "a";
+}
+
+.boconceptbillede2 {
+  width: 210px;
+  grid-area: a;
+  padding-top: 20%;
+}
+
+.boconceptbillede8 {
+  width: 210px;
+  grid-area: a;
+  padding-top: 75%;
+  padding-left: 79%;
+}
+p.billedetekst1 {
+  position: relative;
+  left: -206px;
+  top: -109px;
+  font-size: 7px;
+  color: #A4A4A4;
+  text-align: left;
+}
+
+h1.h1boconcept {
+  padding: 10% 0 7px 10px;
+}
+.boxboconcept1 {
+  background-color: var(--blåknap);
+}
+
+h2.h2boconcept{
+  font-family: "gotham light";
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+p.tekst {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 10px;
+  line-height: 1.2;
+
+}
+
+
+
+ul.boconceptliste {
+display: block;
+}
 
 
 
