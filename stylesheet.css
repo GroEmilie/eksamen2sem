@@ -1008,6 +1008,11 @@ h1 {
 
 /* frontend konsulent sektion */
 
+.jobsideh2.h2 {
+  margin-left: 18px;
+  color: red;
+}
+
 .startannonce {
   display: grid;
   grid-template-columns: auto;
@@ -1065,6 +1070,8 @@ p {
   height: 40px;
   width: 200px;
 }
+
+
 
 
 
