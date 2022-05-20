@@ -18,6 +18,7 @@ font-family: 'Gotham Ultra', sans-serif;
   --blå: #6b9299; 
   --mørkgrøn: #65734b;
   --lysegrøn: #7accb1;  
+  --brun: #994c33;
   /* knapper */
   --rødknap:#f5d6d1;
   --blåknap:#dbe5e6;
@@ -1429,12 +1430,11 @@ p.tekstboconcept {
   padding-left: 44%;
 }
 p.billedetekst1 {
-  position: relative;
-  left: 4px;
-  top: -62px;
-  font-size: 7px;
+  font-size: 10px;
   color: #A4A4A4;
-  text-align: left;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 2%;
 }
 
 h1.h1boconcept {
@@ -1445,7 +1445,7 @@ h1.h1boconcept {
 }
 
 h2.h2boconcept{
-  font-family: "gotham light";
+  font-family: "gotham";
   font-size: 17px;
   padding: 10px 10px 10px 10px;
 }
@@ -1459,23 +1459,48 @@ p.tekstboconcept2 {
 
 img.boconcept4hvid {
   width: 90%;
-  margin: 10% 0% 0% 5%;
+  margin: 20% 0% 0% 5%;
 }
 
 .billedetekst2{
-  font-size: 7px;
+  font-size: 10px;
   color: #A4A4A4;
   text-align: center;
   padding-bottom: 10%;
+  padding-top: 2%;
 }
 
 .boconcepticon .material-icons {
   position: relative;
   left: 50%;
+  color: var(--brun);
+  font-size: 30px;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
+.citat {
+  text-align: center;
+  color: var(--brun);
+  font-family: "gotham";
+  line-height: 1.3;
+}
 
+.billedetekst3 {
+  text-align: center;
+  color: #333232;
+  font-size: 10px;
+  padding-bottom: 10%;
+}
 
+.tekstmarkering {
+  color: var(--brun);
+}
+
+img.coconcept7 {
+  width: 90%;
+  margin: 20% 0% 0% 5%;
+}
 
 
 ul.boconceptliste {
