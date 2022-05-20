@@ -659,7 +659,7 @@ button.green {
 
 .titelgreen {
   grid-area: b;
-  font-family: gotham black;
+  font-family: "gotham black";
   margin-top: 15px;
   text-align: center;
   color: #65734b;
@@ -714,6 +714,13 @@ button.blue {
   color: var(--blå);
 }
 
+p.karrierep {
+  grid-area: c;
+  font-size: 15px;
+  font-family: gotham light;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
 
 /* job frontend konsulent */
 
