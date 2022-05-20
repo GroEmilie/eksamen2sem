@@ -1451,12 +1451,18 @@ p.tekst {
 
 }
 
-
 img.boconcept4hvid {
   width: 90%;
-  margin: 10% 0% 10% 5%;
-  
+  margin: 10% 0% 0% 5%;
 }
+
+.billedetekst2{
+  font-size: 7px;
+  color: #A4A4A4;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
 
 
 ul.boconceptliste {
