@@ -655,15 +655,15 @@ height: 120%;
 
 .titelgreen {
   grid-area: b;
-  font-family: gotham black;
+  font-family: "gotham black";
   margin-top: 15px;
   text-align: center;
   color: #65734b;
 }
 
-p {
+p.karrierep {
   font-size: 15px;
-  font-family: gotham light;
+  font-family: "gotham light";
   text-align: center;
   padding: 5px 5px 5px 5px;
   color: #333232;
@@ -717,7 +717,7 @@ p {
   color: var(--blå);
 }
 
-p {
+p.karrierep {
   grid-area: c;
   font-size: 15px;
   font-family: gotham light;
