@@ -1322,21 +1322,6 @@ button.reply {
   
 }
 
-@media screen and (min-width: 1200px) {
-
-  
-
-}
-
-
-
-
-
-
-
-
-
-
 
 /*  !!!! FOOTER !!!! */
 
@@ -1396,6 +1381,24 @@ h3 {
     align-items: center;
     margin-top: 5%;
 }
+
+/* !!!!DESKTOP VERSION!!!! */
+
+@media screen and (min-width: 1200px) {
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
