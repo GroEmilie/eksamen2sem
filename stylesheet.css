@@ -1092,10 +1092,29 @@ box.jobsidebox1 {
 
 ul.pentiagives{
   background-color: none;
-  height: 800px;
+  height: 300px;
   font-family: gotham light;
-  list-style-type: style type circle;;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 2%;
+  margin-left: 10%;
+  color: var(--blå);
+  list-style-type: square;
 }
+
+.redtext2 {
+  grid-area: b;
+  margin-top: 17px;
+  font-family: gotham light;
+  font-size: 17px;
+  color:var(--rød);
+  margin-left: 5%;
+
+}
+
+
 
 
 button.reply {
