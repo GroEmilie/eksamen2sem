@@ -626,20 +626,20 @@ height: 120%;
 .pentiavideo {
   margin-top: 10%;
   grid-area:a;
-  width: 52vh;
+  width: 46vh;
   
 }
 
-.greenbox {
+box.greenbox {
   grid-area: a;
   z-index: 1;
-  margin-top: 41px;
-  height: 240px;
+  margin-top: 39px;
+  height: 210px;
   width:100%;
   background-color: rgba(103, 114, 80, 25%);
 }
 
-.green {
+button.green {
   grid-area: a;
   z-index: 2;
   margin-top: 250px;
@@ -648,7 +648,7 @@ height: 120%;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
   color:#65734b;
   text-align: flex-start;
-  margin-left: 53%;
+  margin-left: 46.6%;
   height: 50px;
   width: 200px;
 }
@@ -684,7 +684,7 @@ p {
 .greatplacetowork {
   grid-area: a;
   margin-top: 40px;
-  width: 52vh;
+  width: 46vh;
   height: 250px;
 }
 
@@ -740,7 +740,7 @@ p {
 .planke {
   grid-area: a;
   margin-top: 40px;
-  width: 52vh;
+  width: 46vh;
   height: 225px;
 
 }
@@ -754,7 +754,7 @@ p {
   background-color: rgba(140, 195, 172, 25%);
 }
 
-.lightgreen {
+button.lightgreen {
   grid-area: a;
   z-index: 2;
   border-style: none;
@@ -762,7 +762,7 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
   color: var(--lysegrøn);
   margin-top: 245px;
-  margin-left: 53%;
+  margin-left: 46.6%;
   height: 50px;
   width: 200px;
 }
@@ -798,7 +798,7 @@ p {
 .motion {
   grid-area: a;
   margin-top: 40px;
-  width: 52vh;
+  width: 46vh;
   height: 225px;
 }
 
@@ -853,7 +853,7 @@ job senior backend konsulent, stil angivet */
 .freestock1 {
   margin-top: 40px;
   grid-area:a;
-  width: 52vh;
+  width: 46vh;
   height: 240px;
 
 }
@@ -896,7 +896,7 @@ grid-area: a;
 .freestock2 {
   grid-area: a;
   margin-top: 40px;
-  width: 52vh;
+  width: 46vh;
   height: 240px;
 }
 
@@ -928,7 +928,7 @@ grid-area: a;
 .freestock3 {
   grid-area: a;
   margin-top: 40px;
-  width:52vh;
+  width:46vh;
   height: 240px;
 }
 
@@ -1072,7 +1072,7 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-  
+
 }
 
 
