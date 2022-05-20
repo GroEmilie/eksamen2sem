@@ -1524,6 +1524,13 @@ img.boconcept4hvid {
   line-height: 1.3;
 }
 
+.linje {
+  color: var(--brun);
+  text-align: center;
+  padding-top: -40px;
+  padding-bottom: 40px;
+}
+
 .billedetekst3 {
   text-align: center;
   color: #333232;
