@@ -162,6 +162,10 @@ p {
   font-family: "gotham light";
 }
 
+button {
+  font-family: "gotham";
+}
+
 
 /* !!!! CASESIDEN MOBIL !!!! */
 
@@ -613,7 +617,7 @@ height: 120%;
   color: var(--rød);
 }
 
-.aoga {
+h1.aoga {
   grid-area: a;
   margin-top: 70px;
   margin-left: 5%;
@@ -635,6 +639,7 @@ height: 120%;
   margin-top: 10%;
   grid-area:a;
   width: 46vh;
+  height: 240px;
   
 }
 
@@ -659,10 +664,16 @@ button.green {
   margin-left: 46.6%;
   height: 50px;
   width: 200px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .titelgreen {
   grid-area: b;
+  font-size: 20px;
   font-family: "gotham black";
   margin-top: 15px;
   text-align: center;
@@ -686,14 +697,14 @@ button.green {
   grid-area: a;
   margin-top: 40px;
   width: 46vh;
-  height: 250px;
+  height: 265px;
 }
 
 box.bluebox {
   grid-area: a;
   z-index: 1;
   margin-top: 39px;
-  height: 227px;
+  height: 240px;
   width:100%;
   background-color: rgba(115, 144, 150, 25%);
 }
@@ -708,10 +719,16 @@ button.blue {
   margin-top: 245px;
   height: 50px;
   width: 200px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .titelblue {
   grid-area: b;
+  font-size: 20px;
   font-family: gotham black;
   margin-top: 15px;
   text-align: center;
@@ -742,15 +759,15 @@ p.karrierep {
   grid-area: a;
   margin-top: 40px;
   width: 46vh;
-  height: 225px;
+  height: 240px;
 
 }
 
-.lightgreenbox {
+box.lightgreenbox {
   grid-area: a;
   z-index: 1;
   margin-top: 40px;
-  height: 225px;
+  height: 240px;
   width:100%;
   background-color: rgba(140, 195, 172, 25%);
 }
@@ -766,10 +783,16 @@ button.lightgreen {
   margin-left: 46.6%;
   height: 50px;
   width: 200px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .titellightgreen {
   grid-area: b;
+  font-size: 20px;
   font-family: gotham black;
   margin-top: 15px;
   text-align: center;
@@ -793,19 +816,19 @@ button.lightgreen {
   grid-area: a;
   margin-top: 40px;
   width: 46vh;
-  height: 225px;
+  height: 240px;
 }
 
 .redbox {
   grid-area: a;
   z-index: 1;
   margin-top: 40px;
-  height: 225px;
+  height: 240px;
   width:100%;
   background-color: rgba(224, 104, 87, 25%);
 }
 
-.red {
+button.red {
   grid-area: a;
   z-index: 2;
   border-style: none;
@@ -815,10 +838,16 @@ button.lightgreen {
   margin-top: 245px;
   height: 50px;
   width: 200px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .titelred {
   grid-area: b;
+  font-size: 20px;
   font-family: gotham black;
   margin-top: 15px;
   text-align: center;
@@ -847,7 +876,7 @@ job senior backend konsulent, stil angivet */
 
 }
 
-.greenbox {
+box.greenbox {
   grid-area: a;
   z-index: 1;
   margin-top: 41px;
@@ -856,11 +885,11 @@ job senior backend konsulent, stil angivet */
   background-color: rgba(103, 114, 80, 50%);
 }
 
-.green {
+button.green {
 grid-area: a;
   z-index: 2;
   margin-top: 250px;
-  margin-left: 53%;
+  margin-left: 46.6%;
 }
 
 
@@ -889,14 +918,14 @@ grid-area: a;
   height: 240px;
 }
 
-.bluebox {
+box.bluebox {
   grid-area:a;
   z-index: 1;
   margin-top: 41px;
   height: 240px;
 }
 
-.blue {
+button.blue {
   grid-area: a;
 }
 
@@ -921,11 +950,11 @@ grid-area: a;
   height: 240px;
 }
 
-.lightgreenbox {
+box.lightgreenbox {
   grid-area: a;
 }
 
-.lightgreen {
+button.lightgreen {
   grid-area: a;
 }
 
@@ -975,7 +1004,7 @@ grid-area: a;
   text-align: center;
 }
 
-.white {
+button.white {
   grid-area: a;
   height:40px;
   width:100px;
