@@ -1025,12 +1025,43 @@ button.white {
 h2.jobsideh2 {
   color: var(--blå);
   margin-left: 5%;
+  margin-top: 5%;
 }
 
 p.tekst {
   font-size: 17px;
-  margin-left: 3%;
-  line-height: 3;
+  margin-left: 5%;
+  line-height: 1.3;
+  margin-right: 7px;
+}
+
+h1.jobside {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  color: ;
+
+}
+
+.startbox {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a"
+  "b"
+}
+
+box.jobsidebox1 {
+  margin-top: 10%;
+  background-color: var(--mørkgrønknap);
+  height: fit-content;
+  margin-bottom: 10%;
+}
+
+.loop {
+  margin-left: 60%;
+  margin-bottom: 5%;
 }
 
 .startannonce {
@@ -1066,26 +1097,22 @@ ul.pentiagives{
   font-family: gotham light;
   list-style-type:none;
 }
-.replygrid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  grid-template-areas: 
-  "a b c"
-  
-}
-.reply {
-  grid-area: b;
+
+
+button.reply {
   margin-top: 20%;
-  border-color: var(--rødknap);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  margin-left: 22%;
+  border-color: var(--rød);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
   background-color: transparent;
-  color: #ff5b4c;
-  height: 40px;
+  color: var(--rød);
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
   width: 200px;
+  
 }
 
 @media screen and (min-width: 1200px) {
@@ -1130,22 +1157,27 @@ h3 {
 .copenhagen p {
     margin-top: 3%; 
     margin-bottom: 3%;
+    text-align: center;
 }
 .odense p {
     margin-top: 3%; 
     margin-bottom: 3%;
+    text-align: center;
 }
 .aarhus p {
     margin-top: 3%; 
     margin-bottom: 3%;
+    text-align: center;
 }
 .malmoe p {
     margin-top: 3%; 
     margin-bottom: 3%;
+    text-align: center;
 }
 .info p {
     margin-top: 3%; 
     margin-bottom: 3%;
+    text-align: center;
 }
 
 .footerlinks a {
