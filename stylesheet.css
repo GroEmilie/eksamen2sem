@@ -591,6 +591,193 @@ height: 120%;
 }
 
 
+/*  !!!!!! BOCONCEPT MOBIL CASE !!!!!!! */
+.redtextboconcept {
+  font-size: 14px;
+  font-family: gotham light;
+  color: var(--rød);
+  margin-top: 12%;
+  margin-left: 5%;
+}
+
+h1.boconcepth1 {
+  margin-left: 5%;
+  margin-top: 1%;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+p.tekstboconcept {
+  font-size: 17px;
+  font-family: gotham light;
+  text-align: left;
+  margin-left: 2%;
+  line-height: 1.3;
+  margin-top: 3%
+}
+
+.pentagoncase {
+  width: 80%;
+  padding-left: 10%;
+}
+
+.billedeoverlap {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "a" "a";
+}
+
+.boconceptbillede2 {
+  width: 210px;
+  grid-area: a;
+  padding-top: 20%;
+}
+
+.boconceptbillede8 {
+  width: 210px;
+  grid-area: a;
+  padding-top: 40%;
+  padding-left: 44%;
+}
+p.billedetekst1 {
+  font-size: 10px;
+  color: #A4A4A4;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 2%;
+}
+
+h1.h1boconcept {
+  padding: 10% 0 7px 5px;
+}
+.boxboconcept1 {
+  background-color: var(--blåknap);
+  border-width: 0.4px;
+}
+
+.boxboconcept2 {
+  border: solid var(--blåknap);
+  margin: 0 2% 10% 2%;
+}
+
+h2.h2boconcept{
+  font-family: "gotham";
+  font-size: 17px;
+  padding: 10px 10px 10px 10px;
+}
+
+p.tekstboconcept2 {
+  text-align: left;
+  font-size: 17px;
+  padding: 0px 10px 20px 10px;
+  line-height: 1.3;
+}
+
+img.boconcept4hvid {
+  width: 90%;
+  margin: 20% 0% 0% 5%;
+}
+
+.billedetekst2{
+  font-size: 10px;
+  color: #A4A4A4;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 2%;
+}
+
+.boconcepticon .material-icons {
+  position: relative;
+  left: 50%;
+  color: var(--brun);
+  font-size: 30px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.citat {
+  text-align: center;
+  color: var(--brun);
+  font-family: "gotham";
+  line-height: 1.3;
+}
+
+.linje {
+  color: var(--brun);
+  text-align: center;
+  padding-top: -40px;
+  padding-bottom: 40px;
+}
+
+.billedetekst3 {
+  text-align: center;
+  color: #333232;
+  font-size: 10px;
+  padding-bottom: 10%;
+}
+
+.tekstmarkering {
+  color: var(--brun);
+}
+
+img.boconcept7 {
+  width: 90%;
+  margin: 20% 0% 0% 5%;
+}
+
+
+.boxboconcept5 {
+  background-color: var(--blå);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;  
+  grid-template-areas: 
+  "a"
+  "b";
+}
+
+h2.h2boconcept1{
+  grid-area: a;
+  color: #333232;
+  padding: 15% 5% 5% 15%;
+  color: #fff;
+  font-family: "gotham";
+}
+
+ul.boconceptliste {
+grid-area: a;
+font-family: "Gotham light";
+padding: 10px 15% 15% 15%;
+margin-top: 30%;
+height: 460px;
+display: flex;
+line-height: 1.3;
+flex-direction: column;
+justify-content: space-around;
+list-style-type: square;
+color: #fff;
+}
+
+.hvidkant {
+  grid-area: a;
+  height: 93%;
+  width: 88%;
+  z-index: 1000;
+  border: solid #fff;
+  margin: 5% 0 0 5%;
+}
+
+.citat1 {
+  text-align: center;
+  color: var(--brun);
+  font-family: "gotham";
+  line-height: 1.3;
+  padding: 5% 5% 0 5%;
+}
+
+
 
 /* karriere side mobil version  */
 
@@ -1431,189 +1618,3 @@ h3 {
 
 
 
-
-/*  !!!!!! BOCONCEPT !!!!!!! */
-.redtextboconcept {
-  font-size: 14px;
-  font-family: gotham light;
-  color: var(--rød);
-  margin-top: 12%;
-  margin-left: 5%;
-}
-
-h1.boconcepth1 {
-  margin-left: 5%;
-  margin-top: 1%;
-  font-size: 19px;
-  line-height: 1.5;
-}
-
-p.tekstboconcept {
-  font-size: 17px;
-  font-family: gotham light;
-  text-align: left;
-  margin-left: 2%;
-  line-height: 1.3;
-  margin-top: 3%
-}
-
-.pentagoncase {
-  width: 80%;
-  padding-left: 10%;
-}
-
-.billedeoverlap {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: 
-  "a" "a";
-}
-
-.boconceptbillede2 {
-  width: 210px;
-  grid-area: a;
-  padding-top: 20%;
-}
-
-.boconceptbillede8 {
-  width: 210px;
-  grid-area: a;
-  padding-top: 40%;
-  padding-left: 44%;
-}
-p.billedetekst1 {
-  font-size: 10px;
-  color: #A4A4A4;
-  text-align: center;
-  padding-bottom: 10%;
-  padding-top: 2%;
-}
-
-h1.h1boconcept {
-  padding: 10% 0 7px 5px;
-}
-.boxboconcept1 {
-  background-color: var(--blåknap);
-  border-width: 0.4px;
-}
-
-.boxboconcept2 {
-  border: solid var(--blåknap);
-  margin: 0 2% 10% 2%;
-}
-
-h2.h2boconcept{
-  font-family: "gotham";
-  font-size: 17px;
-  padding: 10px 10px 10px 10px;
-}
-
-p.tekstboconcept2 {
-  text-align: left;
-  font-size: 17px;
-  padding: 0px 10px 20px 10px;
-  line-height: 1.3;
-}
-
-img.boconcept4hvid {
-  width: 90%;
-  margin: 20% 0% 0% 5%;
-}
-
-.billedetekst2{
-  font-size: 10px;
-  color: #A4A4A4;
-  text-align: center;
-  padding-bottom: 10%;
-  padding-top: 2%;
-}
-
-.boconcepticon .material-icons {
-  position: relative;
-  left: 50%;
-  color: var(--brun);
-  font-size: 30px;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
-
-.citat {
-  text-align: center;
-  color: var(--brun);
-  font-family: "gotham";
-  line-height: 1.3;
-}
-
-.linje {
-  color: var(--brun);
-  text-align: center;
-  padding-top: -40px;
-  padding-bottom: 40px;
-}
-
-.billedetekst3 {
-  text-align: center;
-  color: #333232;
-  font-size: 10px;
-  padding-bottom: 10%;
-}
-
-.tekstmarkering {
-  color: var(--brun);
-}
-
-img.boconcept7 {
-  width: 90%;
-  margin: 20% 0% 0% 5%;
-}
-
-
-.boxboconcept5 {
-  background-color: var(--blå);
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;  
-  grid-template-areas: 
-  "a"
-  "b";
-}
-
-h2.h2boconcept1{
-  grid-area: a;
-  color: #333232;
-  padding: 15% 5% 5% 15%;
-  color: #fff;
-  font-family: "gotham";
-}
-
-ul.boconceptliste {
-grid-area: a;
-font-family: "Gotham light";
-padding: 10px 15% 15% 15%;
-margin-top: 30%;
-height: 460px;
-display: flex;
-line-height: 1.3;
-flex-direction: column;
-justify-content: space-around;
-list-style-type: square;
-color: #fff;
-}
-
-.hvidkant {
-  grid-area: a;
-  height: 93%;
-  width: 88%;
-  z-index: 1000;
-  border: solid #fff;
-  margin: 5% 0 0 5%;
-}
-
-.citat1 {
-  text-align: center;
-  color: var(--brun);
-  font-family: "gotham";
-  line-height: 1.3;
-  padding: 5% 5% 0 5%;
-}
