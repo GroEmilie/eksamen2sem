@@ -54,7 +54,7 @@ ul.menu:hover {
  li.dropdown a, .dropbtn {
    display: inherit;
    color: #fff;
-   text-align: center;
+   text-align: right;
    padding: 14px 16px;
    text-decoration: none;
  }
