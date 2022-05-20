@@ -171,7 +171,7 @@ button {
 /* !!!! CASESIDEN MOBIL !!!! */
 
 /* BOCONCEPT */
-.boconcept {
+.boconceptmain {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
@@ -234,7 +234,7 @@ button {
 }
 
 /* MINE TILBUD */
-.minetilbud {
+.minetilbudmain {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
@@ -287,7 +287,7 @@ h1.minetilbud{
 
 
 /* MIDDELFART SPARREKASSE */
-.middelfart {
+.middelfartmain {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
@@ -310,7 +310,7 @@ h1.middelfart{
   font-size: 17px;
 }
 
-.middelfartbillede  {
+.middelfartbillede {
   grid-area: c;
   height: 40vh;
   width: 40vh;
@@ -340,7 +340,7 @@ h1.middelfart{
 }
 
 /* ENERGI FYN */
-.energifyn {
+.energifynmain {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
@@ -470,7 +470,7 @@ width: 100%;
 height: 120%;
 }
 
-.boconcept {
+.boconceptkunder {
 grid-area: c1;
 width: 100%;
 height: 120%;
@@ -1634,4 +1634,748 @@ h3 {
 
 
 
-}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOCONCEPT */
+.boconceptmain {
+  display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "a b";
+    padding-top: 2%;
+    height: 500px;
+  }
+
+  img.boconceptbillede {
+    grid-area: a;
+    width: 600px;
+    height: 500px;
+    margin: 0;
+    padding-left: 7%;
+  }
+  h1.boconcept{
+    grid-area: b;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30%;
+    height: auto;
+  }
+  .boconcepttekst{
+    grid-area: b;
+    padding-top: 40%;
+    font-size: 25px;
+  }
+  .boconceptblue{
+    grid-area: a;
+    height: 70px;
+    width: 300px;
+    margin-bottom: 5%;
+    margin-left: 69%;
+    z-index: 1000;
+    font-size: 25px;
+    position: relative;
+    top: -150px;
+  }
+  .boconceptblue i.material-icons{
+    font-size: 35px;
+  }
+
+  /* MINE TILBUD */
+  .minetilbudmain {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "a b";
+    padding-top: 5%;
+  }
+
+  img.minetilbudbillede {
+    grid-area: b;
+    width: 600px;
+    height: 500px;
+    margin: 0;
+    
+  }
+  h1.minetilbud{
+    grid-area: a;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30%;
+    height: auto;
+  }
+  .minetilbudtekst {
+    grid-area: a;
+    margin-top: 40%;
+    font-size: 25px;
+  }
+  .minetilbudgreen {
+    grid-area: a;
+    height: 70px;
+    width: 300px;
+    margin-bottom: 5%;
+    margin-left: 80%;
+    z-index: 1000;
+    font-size: 25px;
+    position: relative;
+    top: -150px;
+  }
+  .minetilbudgreen i.material-icons{
+    font-size: 35px;
+  }
+  
+
+  /* Middelfart */
+  .middelfartmain {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "a b";
+    margin-top: -100px;
+    }
+  img.middelfartbillede {
+    grid-area: a;
+    width: 600px;
+    height: 500px;
+    margin: 0;
+    padding-left: 7%;
+    }
+
+  h1.middelfart{
+    grid-area: b;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30%;
+    height: auto;
+  }
+  .middelfarttekst {
+    grid-area: b;
+    padding-top: 40%;
+    font-size: 25px;
+  }
+  .middelfartred {
+    grid-area: a;
+    height: 70px;
+    width: 300px;
+    margin-bottom: 5%;
+    margin-left: 69%;
+    z-index: 1000;
+    font-size: 25px;
+    position: relative;
+    top: -150px;
+  }
+
+  /* Energifyn */
+  .energifynmain {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "a b";
+    margin-top: -100px;
+    }
+  img.energifynbillede {
+    grid-area: b;
+    width: 600px;
+    height: 500px;
+    margin: 0;
+    }
+  h1.energifyn{
+    grid-area: a;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30%;
+    height: auto;
+  }
+  .energifyntekst {
+    grid-area: a;
+    grid-area: a;
+    margin-top: 40%;
+    font-size: 25px;
+  }
+  .energifynlightgreen {
+    grid-area: a;
+    height: 70px;
+    width: 300px;
+    margin-bottom: 5%;
+    margin-left: 80%;
+    z-index: 1000;
+    font-size: 25px;
+    position: relative;
+    top: -150px;
+  }
+  .casepentagon {
+    display: none;
+  }
+
+  .pentagonsemere {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "a";
+    margin-top: -280px;
+    }
+
+    .pentagontyk {
+    height: 110px;
+    width: 120px;
+    margin-left: 45.8%;
+    grid-area: a;
+    }
+    
+    .semere {
+    grid-area: a;
+    margin-top: 14.5%;
+    font-family: "gotham";
+    color: var(--lysegrøn);
+    font-size: 17px;
+    text-align: center;
+    }
+
+    .voreskunder {
+      margin-top: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+
+    .voreskundercase {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto;
+      grid-template-areas: 
+      "a1 a2 a3 a4"
+      "b1 b2 b3 b4"
+      "c1 c2 c3 c4"
+      "d1 d2 d3 d4"
+      "e1 e2 e3 e4"
+      "f1 f2 f3 f4";
+      }
+      
+      .leopharma {
+      grid-area: a1;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .folketinget {
+      grid-area: a2;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .lmwind {
+      grid-area: a3;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .chrhansen {
+      grid-area: a4;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .boconceptkunder {
+      grid-area: b1;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .huscompagniet {
+      grid-area: b2;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .dtu {
+      grid-area: b3;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .atp {
+      grid-area: b4;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .bluewatershipping {
+      grid-area: c1;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .fri {
+      grid-area: c2;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .kongelige {
+      grid-area: c3;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .erhvervsstyrelsen {
+      grid-area: c4;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .danskespil {
+      grid-area: d1;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .rsd {
+      grid-area: d2;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .struers {
+      grid-area: d3;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .domstolsstyrelsen {
+      grid-area: d4;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .diabetes {
+      grid-area: e1;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .banedanmark {
+      grid-area: e2;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .forbrugsforeningen {
+      grid-area: e3;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .minetilbudlogo {
+      grid-area: e4;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .rejsekort {
+      grid-area: f1;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .fof {
+      grid-area: f2;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .energistyrelsen {
+      grid-area: f3;
+      width: 100%;
+      height: 120%;
+      }
+      
+      .krifa {
+      grid-area: f4;
+      width: 100%;
+      height: 120%;
+      }
+      
+
+
+} 
