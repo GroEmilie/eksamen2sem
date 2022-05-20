@@ -1386,10 +1386,365 @@ h3 {
 
 @media screen and (min-width: 1200px) {
 
+  .pentagonplace {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "a b";
+  }
+
+  .pentagon {
+    grid-area: a;
+    height: 500px;
+    width: auto;
+    margin-top: none;
+    margin-bottom: 10%;
+    margin-left: 30%;
+  }
+
+  .redtext {
+    grid-area: a;
+    margin-top: none;
+   margin-left: 30%;
+   font-size: 35px;
+   padding: 0% 0% 2% 0%;
+  }
+
+  h1.aoga {
+    grid-area: a;
+    margin-top: 20%;
+    font-size: 60px;
+    margin-left: 35%;
+  }
+  p.toptekst {
+    grid-area: b;
+    font-family: "gotham light";
+    font-size: 35px;
+    margin-left: 10%;
+    padding: 4% 10% 0% 10%;
+  }
+
+
+  .clientdirector {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "a b";
+    width: 1920px;
+    height: 1000px;
+  }
+
+  box.greenbox {
+    grid-area: a;
+    height: 100%;
+    width:100%
+  }
+
+  .pentiavideo {
+    grid-area: a;
+    width: 100%;
+    height: 100%;
+  }
+
+  button.green {
+    grid-area: a;
+    margin-top: 60%;
+    margin-left:75%;
+    height: 125px;
+    width: 400px;
+    text-align: start;
+    font-size: 30px;
+  }
+
+  .titelgreen {
+    grid-area:b;
+    font-size: 40px;
+    margin-top: 30%;
+    height: 100%;
+    width:100%;
+
+  }
+
+  p.karrierep {
+    grid-area: b;
+    margin-top: 40%;
+    font-size: 25px;
+    padding: 0% 20% 0% 20%;
+    text-align: center;
+
+  }
+
+  .senioruxdesigner {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "a b";
+    width:1920px;
+    height:1000px;
+  }
+
+  box.bluebox {
+   grid-area: b;
+   width: 100%;
+   height: 100%;
+  }
+
+  .greatplacetowork {
+    grid-area: b;
+    width: 100%;
+    height: 100%;
+  }
+
+  button.blue {
+    grid-area: a;
+    z-index: 1;
+    margin-top: 60%;
+    margin-left:75%;
+    height: 125px;
+    width: 400px;
+    text-align: start;
+    font-size: 30px;
+  }
+
+  .titelblue {
+    grid-area: a;
+    font-size: 50px;
+    margin-top: 30%;
+    height: 100%;
+    width:100%;
+  }
   
 
+  p.karrierepvenstre {
+    grid-area: a;
+    margin-top: 40%;
+    font-size: 35px;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+  }
 
+  .frontendkonsulent {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "a b";
+    width:1920px;
+    height:1000px;
+  }
 
+  box.lightgreenbox {
+    grid-area: a;
+   width: 100%;
+   height: 100%;
+  }
+
+  .planke {
+    grid-area: a;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  button.lightgreen {
+    grid-area: a;
+    z-index: 1;
+    margin-top: 50%;
+    margin-left:75%;
+    height: 125px;
+    width: 400px;
+    text-align: start;
+    font-size: 30px;
+  }
+
+  .titellightgreen {
+    grid-area: b;
+    font-size: 50px;
+    margin-top: 30%;
+    height: 100%;
+    width:100%;
+  }
+
+  .digitalloesningsarkitekt {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "a b";
+    width:1920px;
+    height:1000px;
+  }
+
+  box.redbox {
+   grid-area: b;
+   width: 100%;
+   height: 100%;
+  }
+
+  .motion {
+    grid-area: b;
+    width: 100%;
+    height: 100%;
+  }
+
+  button.red {
+    grid-area: a;
+    z-index: 1;
+    margin-top: 60%;
+    margin-left:75%;
+    height: 125px;
+    width: 400px;
+    text-align: start;
+    font-size: 30px;
+  }
+
+  .titelred {
+    grid-area: a;
+    font-size: 50px;
+    margin-top: 30%;
+    height: 100%;
+    width:100%;
+  }
+  
+
+  p.karrierepvenstre {
+    grid-area: a;
+    margin-top: 40%;
+    font-size: 35px;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+  }
+
+  .seniorbackendkonsulent {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "a b";
+    width:1920px;
+    height:1000px;
+  }
+
+  box.greenbox {
+    grid-area: a;
+   width: 100%;
+   height: 100%;
+  }
+
+  .freestock1 {
+    grid-area: a;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  button.green {
+    grid-area: a;
+    z-index: 1;
+    margin-top: 60%;
+    margin-left:75%;
+    height: 125px;
+    width: 400px;
+    text-align: start;
+    font-size: 30px;
+  }
+
+  .titelgreen {
+    grid-area: b;
+    font-size: 50px;
+    margin-top: 30%;
+    height: 100%;
+    width:100%;
+  }
+
+  .backendkonsulent {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-columns: auto auto;
+   grid-template-areas: 
+   "a b";
+   width:1920px;
+   height:1000px;
+  }
+  
+    box.bluebox {
+     grid-area: b;
+     width: 100%;
+     height: 100%;
+    }
+  
+    .freestock2 {
+      grid-area: b;
+      width: 100%;
+      height: 100%;
+    }
+  
+    button.blue {
+      grid-area: a;
+      z-index: 1;
+      margin-top: 60%;
+      margin-left:75%;
+      height: 125px;
+      width: 400px;
+      text-align: start;
+      font-size: 30px;
+    }
+  
+    .titelblue {
+      grid-area: a;
+      height: 100%;
+      width: 100%;
+      font-size: 50px;
+      margin-top: 30%;
+    }
+    
+  
+    p.karrierepvenstre {
+      grid-area: a;
+      margin-top: 40%;
+      font-size: 35px;
+      text-align: center;
+      padding: 0% 10% 0% 10%;
+    }
+
+    .delditcv {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      grid-template-areas: 
+      "a b";
+      width:1920px;
+      height:1000px;
+    }
+
+    .freestock3 {
+      grid-area: a;
+      width: 100%;
+      height: 100%;
+    }
+
+    .greatplace {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "a"
+      "b"
+      "c";
+    }
+
+    .greatplacetowork {
+      grid-area: a;
+      width:100%;
+    }
+  
+
+  
+
+  
 
 
 
