@@ -626,20 +626,20 @@ height: 120%;
 .pentiavideo {
   margin-top: 10%;
   grid-area:a;
-  width: 52vh;
+  width: 46vh;
   
 }
 
-.greenbox {
+box.greenbox {
   grid-area: a;
   z-index: 1;
-  margin-top: 41px;
-  height: 240px;
+  margin-top: 39px;
+  height: 210px;
   width:100%;
   background-color: rgba(103, 114, 80, 25%);
 }
 
-.green {
+button.green {
   grid-area: a;
   z-index: 2;
   margin-top: 250px;
@@ -648,7 +648,7 @@ height: 120%;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
   color:#65734b;
   text-align: flex-start;
-  margin-left: 53%;
+  margin-left: 46.6%;
   height: 50px;
   width: 200px;
 }
@@ -684,7 +684,7 @@ p.karrierep {
 .greatplacetowork {
   grid-area: a;
   margin-top: 40px;
-  width: 52vh;
+  width: 46vh;
   height: 250px;
 }
 
@@ -740,7 +740,7 @@ p.karrierep {
 .planke {
   grid-area: a;
   margin-top: 40px;
-  width: 52vh;
+  width: 46vh;
   height: 225px;
 
 }
@@ -754,7 +754,7 @@ p.karrierep {
   background-color: rgba(140, 195, 172, 25%);
 }
 
-.lightgreen {
+button.lightgreen {
   grid-area: a;
   z-index: 2;
   border-style: none;
@@ -762,7 +762,7 @@ p.karrierep {
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
   color: var(--lysegrøn);
   margin-top: 245px;
-  margin-left: 53%;
+  margin-left: 46.6%;
   height: 50px;
   width: 200px;
 }
@@ -798,7 +798,7 @@ p {
 .motion {
   grid-area: a;
   margin-top: 40px;
-  width: 52vh;
+  width: 46vh;
   height: 225px;
 }
 
@@ -853,7 +853,7 @@ job senior backend konsulent, stil angivet */
 .freestock1 {
   margin-top: 40px;
   grid-area:a;
-  width: 52vh;
+  width: 46vh;
   height: 240px;
 
 }
@@ -894,13 +894,189 @@ grid-area: a;
 }
 
 .freestock2 {
-  
+  grid-area: a;
+  margin-top: 40px;
+  width: 46vh;
+  height: 240px;
 }
+
+.bluebox {
+  grid-area:a;
+  z-index: 1;
+  margin-top: 41px;
+  height: 240px;
+}
+
+.blue {
+  grid-area: a;
+}
+
 
 /* job del dit cv, stil angivet */
 
+.delditcv {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "a"
+  "b"
+  "c"
+}
+
+
+.freestock3 {
+  grid-area: a;
+  margin-top: 40px;
+  width:46vh;
+  height: 240px;
+}
+
+.lightgreenbox {
+  grid-area: a;
+}
+
+.lightgreen {
+  grid-area: a;
+}
+
+.detsigerkollegaerne {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "a"
+  "b"
+  "c"
+}
+
+/* HER SKAL SLIDER INDSÆTTES */
+h1 {
+  grid-area: a;
+  margin-top: 40px;
+  margin-left: 7%;
+}
+
+
+/* greatplace to work sektion */
+.greatplace {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a"
+}
+
+.greatplacetowork {
+  grid-area: a;
+}
+
+.whitetitel {
+  grid-area: a;
+  z-index: 1;
+  color: white;
+  margin-top: 60px;
+  font-family: gotham light;
+  font-size: 20px;
+  text-align: center;
+}
+
+.whitetext {
+  grid-area: a;
+  color:white;
+  margin-top: 100px;
+  font-family: gotham light;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.white {
+  grid-area: a;
+  height:40px;
+  width:100px;
+  margin-top: 200px;
+  margin-left: 37%;
+  background-color: transparent;
+  color: white;
+  border: white;
+  border-style:outset;
+  
+}
+
+
+
 
 /* frontend konsulent sektion */
+
+.jobsideh2.h2 {
+  margin-left: 18px;
+  color: red;
+}
+
+.startannonce {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a"
+  "b"
+}
+
+.annoncetitel {
+  grid: a;
+  text-align: center;
+  
+}
+
+.redtext1 {
+  grid-area: b;
+  margin-top: 10px;
+  text-align: center;
+  font-family: gotham light;
+  font-size: 12px;
+  color:var(--rød);
+
+}
+
+p {
+  margin-left: 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.pentiagives ul{
+  background-color: none;
+  height: 800px;
+  font-family: gotham light;
+  list-style-type:none;
+}
+.replygrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a b c"
+  
+}
+.reply {
+  grid-area: b;
+  margin-top: 20%;
+  border-color: var(--rødknap);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #ff5b4c;
+  height: 40px;
+  width: 200px;
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
 
 
 
