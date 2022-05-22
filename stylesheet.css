@@ -34,7 +34,8 @@ font-family: 'Gotham Ultra', sans-serif;
 
 .navigation {
   width:100%;
-  background-color: rgba(114, 144, 150, 0.8);
+  z-index: 1;
+  background-color: rgba(114, 144, 150, 0.3);
 }
 
 .navigationcases {
@@ -56,15 +57,17 @@ ul.menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(114, 144, 150, 0.8);
+    background-color: rgba(114, 144, 150, 0.3);
  }
  
 ul.menu:hover {
-     background-color: var(--blå);
+  background-color: rgba(114, 144, 150, 0.3);
+     
  }
  
  li.dropdown {
    width: 100%;
+   z-index: 1;
  }
  
  li.dropdown a, .dropbtn {
@@ -82,6 +85,7 @@ ul.menu:hover {
  li.dropdown {
    display: inline-block;
    min-width: 375px;
+   z-index: 1;
  }
  
  .dropdown-content {
@@ -90,7 +94,7 @@ ul.menu:hover {
    position: absolute;
    background-color: var(--blå);
    min-width: 100%;
-   background-color: rgba(114, 144, 150, 1);
+   background-color: rgba(114, 144, 150, 0.3);
    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
    z-index: 1;
  }
@@ -105,7 +109,7 @@ ul.menu:hover {
  }
  
  .dropdown-content a:hover {
-     background-color: rgba(114, 144, 150, 1);
+     background-color: rgba(114, 144, 150, 0.3);
     }
  
  .dropdown:hover .dropdown-content {
@@ -162,16 +166,10 @@ ul.menu:hover {
   opacity: 1;
 }
 
-p.headertekst {
-  color: #fff;
-  text-align: center;
-  padding: 10%;
-  font-size: 25px;
-}
-
 .container {
+  z-index: -2;
   width:100%;
-  height: 100vh;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,9 +178,11 @@ p.headertekst {
 .swiper {
   width: 100%;
   height:fit-content;
+  z-index: -2;
 }
 
 .swiper-slide img {
+  z-index: -2;
   width: 100%;
 }
 
@@ -191,7 +191,8 @@ p.headertekst {
 } */
 
 .swiper .swiper-pagination-bullet-active {
-  background-color: rgb(114, 144, 150);
+  /* background-color: rgb(114, 144, 150); */
+  background-color: #FFF;
 }
 
 
@@ -1556,7 +1557,7 @@ h3 {
 
   .container {
     width:100%;
-    height: 100%;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1576,7 +1577,8 @@ h3 {
 } */
 
 .swiper .swiper-pagination-bullet-active {
-    background-color: rgb(114, 144, 150);
+    /* background-color: rgb(114, 144, 150); */
+    background-color: #FFF;
 }
   
 ul.menu {
@@ -3382,7 +3384,6 @@ a.navigationa {
 
 .headertekst {
 background-color: var(--blå);
-padding: 5%;
 color: #fff;
 font-size: 17px;
 font-family: "gotham black";
