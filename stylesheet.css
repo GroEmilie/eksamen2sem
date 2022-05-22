@@ -3031,19 +3031,20 @@ button.reply {
 .redtextboconcept {
   font-size: 20px;
   grid-area: a1;
-  margin: 15% 5% 2% 5%;
+  margin: 17% 5% 2% 20%;
 }
 
 h1.boconcepth1 {
   font-size: 35px;
   grid-area: a1;
   margin-top: 20%;
+  margin-left: 20%;
 }
 
 p.tekstboconcept {
   grid-area: a1;
-  margin-top: 35%;
-  margin-left: 5%;
+  margin-top: 43%;
+  margin-left: 20%;
   font-size: 19px;
   line-height: 1.8;
 }
@@ -3094,7 +3095,7 @@ grid-template-areas:
 
 .h1boconceptambition {
   text-align: right;
-  padding: 10% 36% 0.5% 0;
+  padding: 10% 35% 0.5% 0;
   font-size: 40px;
 }
 .boxboconcept1 {
