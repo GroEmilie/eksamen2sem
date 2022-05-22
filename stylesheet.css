@@ -27,23 +27,26 @@ font-family: 'Gotham Ultra', sans-serif;
 }
 
 /*navigation mobil side*/
-.navigationdesktop {
-  display: none;
+.navigation {
+  width:100%;
+  background-color: rgba(114, 144, 150, 0.3);
 }
 .logo {
     height: 90px;
+    z-index: 1;
 }
 
 ul.menu {
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--blå);
+    background-color: rgba(114, 144, 150, 0.3);
  }
  
 ul.menu:hover {
@@ -77,6 +80,7 @@ ul.menu:hover {
    position: absolute;
    background-color: var(--blå);
    min-width: 100%;
+   background-color: rgba(114, 144, 150, 1);
    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
    z-index: 1;
  }
@@ -91,7 +95,7 @@ ul.menu:hover {
  }
  
  .dropdown-content a:hover {
-     background-color: var(--blå);
+     background-color: rgba(114, 144, 150, 0.9);
     }
  
  .dropdown:hover .dropdown-content {
@@ -138,14 +142,16 @@ ul.menu:hover {
      color: white;
  }
 
-.headertekst {
-  background-color: var(--blå);
-  padding: 10%;
-  color: #fff;
-  font-size: 17px;
-  font-family: "gotham black";
-  text-align: center;
+
+ .headervideo {
+   position: absolute;
+   z-index: -1;
+   grid-area: a;
+  width: 100%;
+  height: auto;
+  opacity: 1;
 }
+
 
 /* genrelle elementer */
 
@@ -791,19 +797,20 @@ color: #fff;
   grid-template-areas: 
   "a"
   "b";
-  padding-top: 10%;
+ 
 }
 
 .pentagon {
   grid-area: a;
   height: 175px;
   width: 175px;
+  margin-top: 35%;
   margin-left: 10%;
 }
 
 .redtext {
   grid-area: a;
-  margin-top: 50px;
+  margin-top: 40%;
   margin-left: 18%;
   font-size: 10px;
   font-family: gotham light;
@@ -812,8 +819,15 @@ color: #fff;
 
 h1.aoga {
   grid-area: a;
-  margin-top: 70px;
+  margin-top: 50%;
   margin-left: 5%;
+}
+
+.toptekst {
+  grid-area: b;
+  font-size: 15px;
+  font-family: gotham light;
+  padding: 5% 8% 0% 5%;
 }
 
 /* job clientdirector  */
@@ -840,7 +854,7 @@ box.greenbox {
   grid-area: a;
   z-index: 1;
   margin-top: 39px;
-  height: 210px;
+  height: 240px;
   width:100%;
   background-color: rgba(103, 114, 80, 25%);
 }
@@ -886,11 +900,11 @@ button.green {
   "c"
 }
 
-.greatplacetowork {
+.teststock {
   grid-area: a;
   margin-top: 40px;
-  width: 46vh;
-  height: 265px;
+  width: 100%;
+  height: 240px;
 }
 
 box.bluebox {
@@ -1163,6 +1177,11 @@ button.lightgreen {
 
 /* HER SKAL SLIDER INDSÆTTES */
 
+h1.sliderh1 {
+  text-align: center;
+  margin-top: 10%;
+}
+
 
 
 /* greatplace to work sektion */
@@ -1176,13 +1195,15 @@ button.lightgreen {
 
 .greatplacetowork {
   grid-area: a;
+  width:100%;
+  height: 100%;
 }
 
 .whitetitel {
   grid-area: a;
   z-index: 1;
   color: white;
-  margin-top: 60px;
+  margin-top: 10%;
   font-family: "gotham light";
   font-size: 20px;
   text-align: center;
@@ -1191,7 +1212,7 @@ button.lightgreen {
 .whitetext {
   grid-area: a;
   color:white;
-  margin-top: 100px;
+  margin-top: 15%;
   font-family: gotham light;
   padding: 10px 10px 10px 10px;
   text-align: center;
@@ -1201,7 +1222,7 @@ button.white {
   grid-area: a;
   height:40px;
   width:100px;
-  margin-top: 200px;
+  margin-top: 35%;
   margin-left: 37%;
   background-color: transparent;
   color: white;
@@ -1389,10 +1410,12 @@ h3 {
 
 @media screen and (min-width: 1200px) {
 
+
   .pentagonplace {
+    margin-top: 50%;
     display:grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     grid-template-areas: 
     "a b";
   }
@@ -1401,7 +1424,7 @@ h3 {
     grid-area: a;
     height: 500px;
     width: auto;
-    margin-top: none;
+    margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 30%;
   }
@@ -1420,11 +1443,12 @@ h3 {
     font-size: 60px;
     margin-left: 35%;
   }
-  p.toptekst {
+  .toptekst {
     grid-area: b;
     font-family: "gotham light";
     font-size: 35px;
-    margin-left: 10%;
+    margin-left: 20%;
+    margin-top: 20%;
     padding: 4% 10% 0% 10%;
   }
 
@@ -1435,8 +1459,6 @@ h3 {
     grid-template-columns: auto auto;
     grid-template-areas: 
     "a b";
-    width: 1920px;
-    height: 1000px;
   }
 
   box.greenbox {
@@ -1463,7 +1485,7 @@ h3 {
 
   .titelgreen {
     grid-area:b;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 30%;
     height: 100%;
     width:100%;
@@ -1485,17 +1507,16 @@ h3 {
     grid-template-columns: auto auto;
     grid-template-areas: 
     "a b";
-    width:1920px;
-    height:1000px;
   }
 
   box.bluebox {
    grid-area: b;
+   z-index: 1;
    width: 100%;
    height: 100%;
   }
 
-  .greatplacetowork {
+  .teststock {
     grid-area: b;
     width: 100%;
     height: 100%;
@@ -1505,7 +1526,7 @@ h3 {
     grid-area: a;
     z-index: 1;
     margin-top: 60%;
-    margin-left:75%;
+    margin-left:0%;
     height: 125px;
     width: 400px;
     text-align: start;
@@ -1514,19 +1535,17 @@ h3 {
 
   .titelblue {
     grid-area: a;
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 30%;
-    height: 100%;
-    width:100%;
   }
   
 
   p.karrierepvenstre {
     grid-area: a;
     margin-top: 40%;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 20% 0% 20%;
   }
 
   .frontendkonsulent {
@@ -1535,20 +1554,18 @@ h3 {
     grid-template-columns: auto auto;
     grid-template-areas: 
     "a b";
-    width:1920px;
-    height:1000px;
   }
 
-  box.lightgreenbox {
-    grid-area: a;
-   width: 100%;
-   height: 100%;
-  }
-
-  .planke {
+  .lightgreenbox {
     grid-area: a;
     width: 100%;
     height: 100%;
+  }
+
+  .lokationpentia {
+    grid-area: a;
+    width: 50%;
+    height: 50%;
 
   }
 
@@ -1565,7 +1582,7 @@ h3 {
 
   .titellightgreen {
     grid-area: b;
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 30%;
     height: 100%;
     width:100%;
@@ -1577,11 +1594,9 @@ h3 {
     grid-template-columns: auto auto;
     grid-template-areas: 
     "a b";
-    width:1920px;
-    height:1000px;
   }
 
-  box.redbox {
+  .redbox {
    grid-area: b;
    width: 100%;
    height: 100%;
@@ -1615,10 +1630,6 @@ h3 {
 
   p.karrierepvenstre {
     grid-area: a;
-    margin-top: 40%;
-    font-size: 35px;
-    text-align: center;
-    padding: 0% 10% 0% 10%;
   }
 
   .seniorbackendkonsulent {
@@ -1627,11 +1638,9 @@ h3 {
     grid-template-columns: auto auto;
     grid-template-areas: 
     "a b";
-    width:1920px;
-    height:1000px;
   }
 
-  box.greenbox {
+  .greenbox {
     grid-area: a;
    width: 100%;
    height: 100%;
@@ -1657,10 +1666,6 @@ h3 {
 
   .titelgreen {
     grid-area: b;
-    font-size: 50px;
-    margin-top: 30%;
-    height: 100%;
-    width:100%;
   }
 
   .backendkonsulent {
@@ -1669,15 +1674,7 @@ h3 {
    grid-template-columns: auto auto;
    grid-template-areas: 
    "a b";
-   width:1920px;
-   height:1000px;
   }
-  
-    box.bluebox {
-     grid-area: b;
-     width: 100%;
-     height: 100%;
-    }
   
     .freestock2 {
       grid-area: b;
@@ -1688,29 +1685,15 @@ h3 {
     button.blue {
       grid-area: a;
       z-index: 1;
-      margin-top: 60%;
-      margin-left:75%;
-      height: 125px;
-      width: 400px;
-      text-align: start;
-      font-size: 30px;
     }
   
     .titelblue {
       grid-area: a;
-      height: 100%;
-      width: 100%;
-      font-size: 50px;
-      margin-top: 30%;
     }
     
   
     p.karrierepvenstre {
       grid-area: a;
-      margin-top: 40%;
-      font-size: 35px;
-      text-align: center;
-      padding: 0% 10% 0% 10%;
     }
 
     .delditcv {
@@ -1719,8 +1702,6 @@ h3 {
       grid-template-rows: auto auto;
       grid-template-areas: 
       "a b";
-      width:1920px;
-      height:1000px;
     }
 
     .freestock3 {
@@ -1741,7 +1722,28 @@ h3 {
 
     .greatplacetowork {
       grid-area: a;
-      width:100%;
+      width:80%;
+      margin-left: 10%;
+    }
+
+    .whitetitel {
+      font-size: 50px;
+      margin-top: 10%;
+    }
+
+    .whitetext {
+      font-size: 35px;
+      margin-top: 15%;
+    }
+
+    button.white {
+      height: 80px;
+      width:400px;
+      margin-top: 30%;
+      font-size: 35px;
+      border-width: 4px;
+      margin-left: 38%;
+
     }
   
 
