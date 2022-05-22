@@ -27,9 +27,18 @@ font-family: 'Gotham Ultra', sans-serif;
 }
 
 /*navigation mobil side*/
+.navigationdesktop{
+  display: none;
+}
+
 .navigation {
   width:100%;
   background-color: rgba(114, 144, 150, 0.3);
+}
+
+.navigationcases {
+  width:100%;
+  background-color:var(--blå);
 }
 .logo {
     height: 90px;
@@ -150,6 +159,13 @@ ul.menu:hover {
   width: 100%;
   height: auto;
   opacity: 1;
+}
+
+p.headertekst {
+  color: #fff;
+  text-align: center;
+  padding: 10%;
+  font-size: 25px;
 }
 
 
