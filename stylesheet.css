@@ -55,7 +55,7 @@ ul.menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(114, 144, 150, 0.3);
+    background-color: rgba(114, 144, 150, 0.8);
  }
  
 ul.menu:hover {
@@ -104,7 +104,7 @@ ul.menu:hover {
  }
  
  .dropdown-content a:hover {
-     background-color: rgba(114, 144, 150, 0.9);
+     background-color: rgba(114, 144, 150, 1);
     }
  
  .dropdown:hover .dropdown-content {
