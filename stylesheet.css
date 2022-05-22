@@ -1555,31 +1555,6 @@ h3 {
 
 @media screen and (min-width: 1200px) {
 
-  .container {
-    width:100%;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.swiper {
-    width: 100%;
-    height:fit-content;
-}
-
-.swiper-slide img {
-    width: 100%;
-}
-
-/* .swiper .swiper-button-prev, .swiper .swiper-button-right{
-    color: rgb(114, 144, 150);
-} */
-
-.swiper .swiper-pagination-bullet-active {
-    /* background-color: rgb(114, 144, 150); */
-    background-color: #FFF;
-}
   
 ul.menu {
   display: none;
@@ -1629,6 +1604,31 @@ ul.menukarrierestor {
     margin-bottom: 10%;
     margin-left: 30%;
   } */
+  .container {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 50%;
+    height:fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: rgb(114, 144, 150);
+}
+
+.swiper .swiper-pagination-bullet-active {
+    /* background-color: rgb(114, 144, 150); */
+    background-color: #FFF;
+}
 
   .redtext {
    grid-area: a;
