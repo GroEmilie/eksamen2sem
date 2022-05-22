@@ -677,7 +677,15 @@ p.billedetekst1 {
 h1.h1boconcept {
   padding: 10% 0 7px 5px;
 }
+h1.h1boconceptløsning {
+  padding: 10% 0 7px 5px;
+}
+
 .boxboconcept1 {
+  background-color: var(--blåknap);
+  border-width: 0.4px;
+}
+.boxboconcept1løsning {
   background-color: var(--blåknap);
   border-width: 0.4px;
 }
@@ -686,8 +694,17 @@ h1.h1boconcept {
   border: solid var(--blåknap);
   margin: 0 2% 10% 2%;
 }
+.boxboconcept2løsning {
+  border: solid var(--blåknap);
+  margin: 0 2% 10% 2%;
+}
 
 h2.h2boconcept{
+  font-family: "gotham";
+  font-size: 17px;
+  padding: 10px 10px 10px 10px;
+}
+h2.h2boconceptløsning{
   font-family: "gotham";
   font-size: 17px;
   padding: 10px 10px 10px 10px;
@@ -698,6 +715,27 @@ p.tekstboconcept2 {
   font-size: 17px;
   padding: 0px 10px 20px 10px;
   line-height: 1.3;
+}
+p.tekstboconcept2løsning {
+  text-align: left;
+  font-size: 17px;
+  padding: 0px 10px 20px 10px;
+  line-height: 1.3;
+}
+
+.nytafsnit{
+  text-align: left;
+  font-size: 17px;
+  padding: 0px 10px 20px 10px;
+  line-height: 1.3;
+  font-family: "gotham light";
+}
+.nytafsnit1 {
+  text-align: left;
+  font-size: 17px;
+  padding: 0px 10px 20px 10px;
+  line-height: 1.3;
+  font-family: "gotham light";
 }
 
 img.boconcept4hvid {
@@ -713,7 +751,29 @@ img.boconcept4hvid {
   padding-top: 2%;
 }
 
+.billedetekst23 {
+  font-size: 10px;
+  color: #A4A4A4;
+}
+
+.billedetekstløsning {
+  font-size: 10px;
+  color: #A4A4A4;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 2%;
+}
+
 .boconcepticon .material-icons {
+  position: relative;
+  left: 50%;
+  color: var(--brun);
+  font-size: 30px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.boconcepticonsidst .material-icons {
   position: relative;
   left: 50%;
   color: var(--brun);
@@ -751,7 +811,13 @@ img.boconcept7 {
   width: 90%;
   margin: 20% 0% 0% 5%;
 }
-
+img.boconcept6 {
+  width: 90%;
+  margin: 20% 0% 0% 5%;
+}
+.billedetekst23 {
+  text-align: center;
+}
 
 .boxboconcept5 {
   background-color: var(--blå);
@@ -2481,7 +2547,7 @@ p.tekst {
     z-index: 1000;
     font-size: 25px;
     position: relative;
-    top: -150px;
+    top: -170px;
   }
   .boconceptblue i.material-icons{
     font-size: 35px;
@@ -2525,7 +2591,7 @@ p.tekst {
     z-index: 1000;
     font-size: 25px;
     position: relative;
-    top: -150px;
+    top: -170px;
   }
   .minetilbudgreen i.material-icons{
     font-size: 35px;
@@ -2570,7 +2636,7 @@ p.tekst {
     z-index: 1000;
     font-size: 25px;
     position: relative;
-    top: -150px;
+    top: -170px;
   }
 
   /* Energifyn */
@@ -2610,7 +2676,7 @@ p.tekst {
     z-index: 1000;
     font-size: 25px;
     position: relative;
-    top: -150px;
+    top: -170px;
   }
   .casepentagon {
     display: none;
@@ -2658,7 +2724,9 @@ p.tekst {
       "d1 d2 d3 d4"
       "e1 e2 e3 e4"
       "f1 f2 f3 f4";
+      margin-bottom: -350px;
       }
+      
       
       .leopharma {
       grid-area: a1;
@@ -2805,14 +2873,299 @@ p.tekst {
       }
       
 
+      /* !!!! BOCONCEPT CASE DESKTOP !!!! */
+.desktopbo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a1 a2"
+}
+
+.redtextboconcept {
+  font-size: 20px;
+  grid-area: a1;
+  margin: 15% 5% 2% 5%;
+}
+
+h1.boconcepth1 {
+  font-size: 35px;
+  grid-area: a1;
+  margin-top: 20%;
+}
+
+p.tekstboconcept {
+  grid-area: a1;
+  margin-top: 35%;
+  margin-left: 5%;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.pentagoncase {
+  grid-area: a2;
+}
+
+/* !!! BILLEDEOVERLAP !!! */
+
+.billedeoverlap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a1 a2"
+}
+
+.boconceptbillede2 {
+grid-area: a1;
+z-index: 10;
+width: 105%;
+padding: 0;
+}
+
+p.billedetekst1 {
+grid-area: a1;
+padding: 93% 0% 0% 5%;
+font-size: 15px;
+text-align: left;
+}
+
+.boconceptbillede8 {
+  grid-area: a2;
+  width: 105%;
+  padding: 30% 0 0 0;
+  margin-left: -5%;
+}
+
+/* !!! AMBITION !!! */
+.desktopambition {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"a1 a2";
+}
+
+.h1boconceptambition {
+  text-align: right;
+  padding: 10% 36% 0.5% 0;
+  font-size: 40px;
+}
+.boxboconcept1 {
+  grid-area: a2;
+  height: fit-content;
+  margin-right: 10%;
+}
+.h2boconcept {
+  grid-area: a2;
+}
+.tekstboconcept2 {
+  grid-area: a2;
+  font-size: 19px;
+  line-height: 1.8;
+}
+.nytafsnit {
+padding-left: 7%;
+}
+
+.boconcept4hvid {
+  grid-area: a1;
+  padding-left: 10%;
+}
+.billedetekst2 {
+  grid-area: a1;
+  padding-top: 83%;
+  margin-left: 19%;
+  font-size: 15px;
+}
+
+/* !!! CITAT !!! */
+
+.boconcepticon .material-icons {
+  position: relative;
+  left: 50%;
+  color: var(--brun);
+  font-size: 40px;
+  padding-bottom: 2%;
+  padding-top: 0;
+}
+
+.citat {
+  text-align: center;
+  color: var(--brun);
+  font-family: "gotham";
+  line-height: 1.3;
+  font-size: 19px;
+}
+.billedetekst3 {
+  text-align: center;
+  color: #333232;
+  font-size: 13px;
+  padding-bottom: 2%;
+}
+.linje {
+  color: var(--brun);
+  padding-bottom: 0px;
+  text-align: center;
+  padding-left: 40px;
+}
+
+/* !!!!! LØSNING !!!!! */
+h1.h1boconceptløsning {
+margin-left: 5%;
+padding: 5% 0 0.5% 0;
+font-size: 40px;
+}
+
+.desktopløsning {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a1 a2";
+}
+
+.boxboconcept1løsning {
+  grid-area: a1;
+  height: fit-content;
+  margin-left: 10%;
+}
+
+.h2boconceptløsning {
+  grid-area: a1;
+}
+
+.tekstboconcept2løsning {
+  grid-area: a1;
+}
+.nytafsnit1 {
+  padding-right: 10%;
+}
+
+img.boconcept7 {
+  grid-area: a2;
+  margin: 15% 0% 0% -10%;
+  z-index: 10;
+}
+.billedetekstløsning{
+  grid-area: a2;
+  font-size: 15px;
+  padding-top: 95%;
+  padding-right: 30%;
+  color: #A4A4A4;
+  text-align: center;
+}
+/* !!! PROCES OG RESULTAT !! */
+
+.procesresultat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a1 a2";
+}
+/* proces */
+.h1boconceptproces{
+  grid-area: a1;
+  font-size: 40px;
+  margin-top: 64px;
+  margin-left: 150px;
+}
+
+.boxboconcept2 {
+  grid-area: a1;
+  height: fit-content;
+  margin-left: 150px;
+  margin-top: 15%;
+  padding: 2% 5% 0 0;
+}
+
+.h2boconceptproces{
+  grid-area: a1;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  font-size: 19px;
+  font-family: "gotham";
+}
+
+.tekstboconcept2{
+  grid-area: a1;
+}
+
+/* resultat */
+.h1boconceptresultat{
+  grid-area: a2;
+  color: #FFF;
+  z-index: 100;
+  text-align: center;
+  margin-top: 33%;
+  font-size: 40px;
+}
+
+.boxboconcept5{
+  grid-area: a2;
+  height: fit-content;
+  margin-right: 45px;
+  margin-top: 25%;
+  z-index: 10;
+  padding-bottom: 35px;
+}
+
+.h2boconcept1{
+  grid-area: a2;
+  padding: 0;
+  text-align: center;
+  margin-top: 8%;
+  font-family: "gotham";
+}
+
+
+ul.boconceptliste{
+  font-family: "Gotham light";
+  padding: 2px 10% 15% 15%;
+  margin-top: 30%;
+  height: fit-content;
+  display: flex;
+  line-height: 2;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: square;
+  color: #fff;
+  font-size: 19px;
+}
+
+/* !!!! BILLEDE !!!!! */
+img.boconcept6 {
+  margin: 7% 0% 0% 5%;
+  width: 92%;
+}
+
+.billedetekst23 {
+  font-size: 15px;
+  padding-top: 1%;
+}
+
+.boconcepticonsidst .material-icons {
+  font-size: 40px;
+  padding-bottom: 2%;
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+.citat1 {
+  text-align: center;
+  color: var(--brun);
+  font-family: "gotham";
+  line-height: 1.3;
+  padding: 0 19% 2% 19%;
 
 /*navigation desktop*/
 .logo {
   height: 110px;
 }
-/* .navigation {
+li.dropdown {
   display: none;
-} */
+}
 .navigationdesktop {
   font-family: "gotham light";
   color: #fff;
@@ -2839,3 +3192,6 @@ text-align: center;
 
 
 } 
+
+
+
