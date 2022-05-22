@@ -27,9 +27,18 @@ font-family: 'Gotham Ultra', sans-serif;
 }
 
 /*navigation mobil side*/
+.navigationdesktop{
+  display: none;
+}
+
 .navigation {
   width:100%;
   background-color: rgba(114, 144, 150, 0.3);
+}
+
+.navigationcases {
+  width:100%;
+  background-color:var(--blå);
 }
 .logo {
     height: 90px;
@@ -150,6 +159,13 @@ ul.menu:hover {
   width: 100%;
   height: auto;
   opacity: 1;
+}
+
+p.headertekst {
+  color: #fff;
+  text-align: center;
+  padding: 10%;
+  font-size: 25px;
 }
 
 
@@ -2788,6 +2804,38 @@ p.tekst {
       height: 120%;
       }
       
+
+
+/*navigation desktop*/
+.logo {
+  height: 110px;
+}
+.navigation {
+  display: none;
+}
+.navigationdesktop {
+  font-family: "gotham light";
+  color: #fff;
+  display: flex;
+  background-color: var(--blå);
+}
+a.navigationa {
+  display: inherit;
+  color: #fff;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.headertekst {
+background-color: var(--blå);
+padding: 5%;
+color: #fff;
+font-size: 17px;
+font-family: "gotham black";
+text-align: center;
+}
 
 
 } 
