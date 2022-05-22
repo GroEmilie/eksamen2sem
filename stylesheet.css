@@ -27,6 +27,9 @@ font-family: 'Gotham Ultra', sans-serif;
 }
 
 /*navigation mobil side*/
+.navigationdesktop {
+  display: none;
+}
 .logo {
     height: 90px;
 }
@@ -2731,6 +2734,38 @@ h3 {
       height: 120%;
       }
       
+
+
+/*navigation desktop*/
+.logo {
+  height: 110px;
+}
+.navigation {
+  display: none;
+}
+.navigationdesktop {
+  font-family: "gotham light";
+  color: #fff;
+  display: flex;
+  background-color: var(--blå);
+}
+a.navigationa {
+  display: inherit;
+  color: #fff;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.headertekst {
+background-color: var(--blå);
+padding: 5%;
+color: #fff;
+font-size: 17px;
+font-family: "gotham black";
+text-align: center;
+}
 
 
 } 
