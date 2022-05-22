@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }   
 html
 {
@@ -166,6 +167,31 @@ p.headertekst {
   text-align: center;
   padding: 10%;
   font-size: 25px;
+}
+
+.container {
+  width:100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  width: 100%;
+  height:fit-content;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+/* .swiper .swiper-button-prev, .swiper .swiper-button-right{
+  color: rgb(114, 144, 150);
+} */
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: rgb(114, 144, 150);
 }
 
 
@@ -1528,6 +1554,30 @@ h3 {
 
 @media screen and (min-width: 1200px) {
 
+  .container {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height:fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+/* .swiper .swiper-button-prev, .swiper .swiper-button-right{
+    color: rgb(114, 144, 150);
+} */
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: rgb(114, 144, 150);
+}
   
 ul.menu {
   display: none;
