@@ -2758,9 +2758,9 @@ h3 {
 .logo {
   height: 110px;
 }
-.navigation {
+/* .navigation {
   display: none;
-}
+} */
 .navigationdesktop {
   font-family: "gotham light";
   color: #fff;
