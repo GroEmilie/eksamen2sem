@@ -249,6 +249,13 @@ h1.boconcept{
 button {
   font-family: "gotham";
 }
+button.boconceptblue {
+  cursor: pointer;
+}
+
+button.lightgreen{
+  cursor: pointer;
+}
 
 /* PENTAGON */
 .casepentagon {
@@ -681,6 +688,20 @@ h1.h1boconcept {
 h1.h1boconceptløsning {
   padding: 10% 0 7px 5px;
 }
+h1.h1boconceptambition {
+  padding: 10% 0 7px 5px;
+}
+h1.h1boconceptproces {
+  padding: 10% 0 7px 5px;
+}
+h1.h1boconceptresultat {
+  padding: 10% 0 7px 5px;
+}
+h2.h2boconceptproces {
+  font-family: "gotham";
+  font-size: 17px;
+  padding: 20px 10px 5px 10px;
+}
 
 .boxboconcept1 {
   background-color: var(--blåknap);
@@ -703,12 +724,12 @@ h1.h1boconceptløsning {
 h2.h2boconcept{
   font-family: "gotham";
   font-size: 17px;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 5px 10px;
 }
 h2.h2boconceptløsning{
   font-family: "gotham";
   font-size: 17px;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 5px 10px;
 }
 
 p.tekstboconcept2 {
@@ -3095,7 +3116,7 @@ grid-template-areas:
 "a1 a2";
 }
 
-.h1boconceptambition {
+h1.h1boconceptambition {
   text-align: right;
   padding: 10% 35% 0.5% 0;
   font-size: 40px;
@@ -3193,7 +3214,7 @@ font-size: 40px;
 
 img.boconcept7 {
   grid-area: a2;
-  margin: 15% 0% 0% -10%;
+  margin: 15% 0% 0% -8%;
   z-index: 10;
 }
 .billedetekstløsning{
@@ -3214,10 +3235,10 @@ img.boconcept7 {
   "a1 a2";
 }
 /* proces */
-.h1boconceptproces{
+h1.h1boconceptproces{
   grid-area: a1;
   font-size: 40px;
-  margin-top: 64px;
+  margin-top: -13px;
   margin-left: 150px;
 }
 
@@ -3229,7 +3250,7 @@ img.boconcept7 {
   padding: 2% 5% 0 0;
 }
 
-.h2boconceptproces{
+h2.h2boconceptproces{
   grid-area: a1;
   padding-left: 2%;
   padding-bottom: 2%;
@@ -3242,12 +3263,12 @@ img.boconcept7 {
 }
 
 /* resultat */
-.h1boconceptresultat{
+h1.h1boconceptresultat{
   grid-area: a2;
   color: #FFF;
   z-index: 100;
   text-align: center;
-  margin-top: 33%;
+  margin-top: 25%;
   font-size: 40px;
 }
 
@@ -3307,7 +3328,7 @@ img.boconcept6 {
   font-family: "gotham";
   line-height: 1.3;
   padding: 0 19% 2% 19%;
-
+}
 /*navigation desktop*/
 .logo {
   height: 110px;
@@ -3340,7 +3361,71 @@ text-align: center;
 }
 
 
-} 
+footer {
+  font-family: "gotham";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1;
+  color: #fff;
+  background-color: rgba(114,144,150,0.8);
+  margin: 0 0 0 0;
+}
+
+footer .footer1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a1 a2 a3 a4 a5 a6";
+  margin-top: 5%;
+}
+
+.copenhagen {
+  grid-area: a1;
+  padding-top: 0;
+  margin-top: 20%;
+  padding: 0;
+
+}
+h3 {
+  padding-bottom: 2%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.odense {
+  grid-area: a2;
+  margin-top: 22%;
+  padding: 0;
+}
+.aarhus {
+  grid-area: a3;
+  margin-top: 22%;
+  padding: 0;
+}
+.malmoe {
+  grid-area: a4;
+  margin-top: 22%;
+  padding: 0;
+}
+.info {
+  grid-area: a5;
+  margin-top: 20%;
+  padding: 0;
+}
+
+.footerlinks {
+  color: #fff;
+  grid-area: a6;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0;
+}
+
+
+
+
+}
 
 
 
