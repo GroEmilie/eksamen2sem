@@ -39,13 +39,9 @@ font-family: 'Gotham Ultra', sans-serif;
 .navigation {
   width:100%;
   z-index: 1;
-  background-color: rgba(114, 144, 150, 0.8);
+  background-color: #B6C5CA;
 }
 
-.navigationcases {
-  width:100%;
-  background-color:var(--blå);
-}
 .logo {
     height: 90px;
     z-index: 1;
@@ -61,11 +57,11 @@ ul.menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(114, 144, 150, 0.8);
+    background-color: #B6C5CA;
  }
  
 ul.menu:hover {
-  background-color: rgba(114, 144, 150, 0.8);
+  background-color:#B6C5CA;
      
  }
  
@@ -96,9 +92,8 @@ ul.menu:hover {
    display: none;
    font-size: 20px;
    position: absolute;
-   background-color: var(--blå);
    min-width: 100%;
-   background-color: rgba(114, 144, 150, 0.8);
+   background-color: #B6C5CA;
    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
    z-index: 4;
  }
@@ -113,7 +108,7 @@ ul.menu:hover {
  }
  
  .dropdown-content a:hover {
-     background-color: rgba(114, 144, 150, 0.8);
+   background-color: #B6C5CA;
     }
  
  .dropdown:hover .dropdown-content {
@@ -163,6 +158,7 @@ ul.menu:hover {
 
  .headervideo {
    position: absolute;
+   margin-top: 25%;
    z-index: -1;
    grid-area: a;
   width: 100%;
@@ -927,6 +923,7 @@ color: #fff;
 /* karriere side mobil version  */
 
 .pentagonplace {
+  margin-top: 55%;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -981,7 +978,7 @@ h1.aoga {
 }
 
 .clientfoto {
-  margin-top: 10%;
+  margin-top: 11%;
   grid-area:a;
   width: 46vh;
   height: 240px;
@@ -991,7 +988,7 @@ h1.aoga {
 box.greenbox {
   grid-area: a;
   z-index: 1;
-  margin-top: 39px;
+  margin-top: 30px;
   height: 240px;
   width:100%;
   background-color: rgba(103, 114, 80, 25%);
@@ -1010,10 +1007,7 @@ button.green {
   height: 50px;
   width: 200px;
   font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-top: 10px;
 }
 
 .titelgreen {
@@ -1065,10 +1059,7 @@ button.blue {
   height: 50px;
   width: 200px;
   font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-top: 10px;
 }
 
 .titelblue {
@@ -1088,6 +1079,14 @@ p.karrierep {
   padding: 5px 5px 5px 5px;
 }
 
+p.karrierepvenstre{
+  grid-area: c;
+  font-size: 15px;
+  font-family: gotham light;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
 /* job frontend konsulent */
 
 .frontendkonsulent {
@@ -1100,7 +1099,7 @@ p.karrierep {
   "c"
 }
 
-.lokationpentia {
+.poolpentia {
   grid-area: a;
   margin-top: 40px;
   width: 100%;
@@ -1129,10 +1128,7 @@ button.lightgreen {
   height: 50px;
   width: 200px;
   font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-top: 10px;
 }
 
 .titellightgreen {
@@ -1184,10 +1180,7 @@ button.red {
   height: 50px;
   width: 200px;
   font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-top: 10px;
 }
 
 .titelred {
