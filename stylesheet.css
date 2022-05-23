@@ -282,6 +282,7 @@ button {
 }
 button.boconceptblue {
   cursor: pointer;
+  padding-bottom: 15px;
 }
 
 button.lightgreen{
@@ -2808,8 +2809,8 @@ button.reply {
 
   img.boconceptbillede {
     grid-area: a;
-    width: 600px;
-    height: 500px;
+    width: 660px;
+    height: 515px;
     margin: 0;
     padding-left: 7%;
   }
@@ -2827,10 +2828,10 @@ button.reply {
   }
   .boconceptblue{
     grid-area: a;
-    height: 70px;
-    width: 300px;
+    height: 80px;
+    width: 330px;
     margin-bottom: 5%;
-    margin-left: 69%;
+    margin-left: 66%;
     z-index: 1000;
     font-size: 25px;
     position: relative;
@@ -2852,11 +2853,11 @@ button.reply {
 
   img.minetilbudbillede {
     grid-area: b;
-    width: 600px;
-    height: 500px;
-    margin: 0;
-    
+    width: 660px;
+    height: 515px;
+    padding-right: 2%;
   }
+
   h1.minetilbud{
     grid-area: a;
     font-size: 40px;
@@ -2871,14 +2872,16 @@ button.reply {
   }
   .minetilbudgreen {
     grid-area: a;
-    height: 70px;
-    width: 300px;
+    height: 80px;
+    width: 330px;
+    padding-bottom: 15px;
     margin-bottom: 5%;
-    margin-left: 80%;
+    margin-left: 84%;
     z-index: 1000;
     font-size: 25px;
     position: relative;
     top: -170px;
+    cursor: pointer;
   }
   .minetilbudgreen i.material-icons{
     font-size: 35px;
@@ -2896,9 +2899,10 @@ button.reply {
     }
   img.middelfartbillede {
     grid-area: a;
-    width: 600px;
-    height: 500px;
+    width: 660px;
+    height: 515px;
     margin: 0;
+    margin-top: -30px;
     padding-left: 7%;
     }
 
@@ -2916,14 +2920,19 @@ button.reply {
   }
   .middelfartred {
     grid-area: a;
-    height: 70px;
-    width: 300px;
+    height: 80px;
+    width: 330px;
     margin-bottom: 5%;
-    margin-left: 69%;
+    margin-left: 66%;
+    padding-bottom: 10px;
     z-index: 1000;
     font-size: 25px;
     position: relative;
-    top: -170px;
+    top: -200px;
+    cursor: pointer;
+  }
+  .middelfartred i.material-icons{
+    font-size: 35px;
   }
 
   /* Energifyn */
@@ -2937,9 +2946,11 @@ button.reply {
     }
   img.energifynbillede {
     grid-area: b;
-    width: 600px;
-    height: 500px;
-    margin: 0;
+    width: 660px;
+    height: 515px;
+    padding-right: 2%;
+    margin-top: -30px;
+    
     }
   h1.energifyn{
     grid-area: a;
@@ -2956,14 +2967,19 @@ button.reply {
   }
   .energifynlightgreen {
     grid-area: a;
-    height: 70px;
-    width: 300px;
+    height: 80px;
+    width: 330px;
     margin-bottom: 5%;
-    margin-left: 80%;
+    margin-left: 84%;
+    padding-bottom: 10px;
     z-index: 1000;
     font-size: 25px;
     position: relative;
-    top: -170px;
+    top: -200px;
+    cursor: pointer;
+  }
+  .energifynlightgreen i.material-icons{
+    font-size: 35px;
   }
   .casepentagon {
     display: none;
@@ -2983,6 +2999,7 @@ button.reply {
     width: 120px;
     margin-left: 45.8%;
     grid-area: a;
+    cursor: pointer;
     }
     
     .semere {
@@ -2992,6 +3009,7 @@ button.reply {
     color: var(--lysegrøn);
     font-size: 17px;
     text-align: center;
+    cursor: pointer;
     }
 
     .voreskunder {
@@ -3510,6 +3528,7 @@ h3 {
   margin-bottom: 10%;
   padding: 0;
 }
+
 
 
 
