@@ -186,9 +186,9 @@ ul.menu:hover {
   width: 100%;
 }
 
-/* .swiper .swiper-button-prev, .swiper .swiper-button-right{
-  color: rgb(114, 144, 150);
-} */
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: #FFF;
+}
 
 .swiper .swiper-pagination-bullet-active {
   /* background-color: rgb(114, 144, 150); */
@@ -1562,11 +1562,10 @@ ul.menu {
 
 .menustorgro {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
   grid-template-rows: auto;
   grid-template-areas: 
-  "a b";
-  margin-right: 10%;
+  "a b c d e f g h";
 }
 
 .logo {
@@ -1574,18 +1573,77 @@ ul.menu {
 }
   
 ul.menukarrierestor {
-  grid-area: b;
-  margin-left: 20%;
-  display:flex; 
-  justify-content: space-between;
-  align-items: center;
+  grid-area: f;
   color: white;
-  margin-top: 2%;
   list-style-type: none;
   font-family: gotham;
   font-size: 20px;
 }
 
+.stratecution {
+  grid-area: b;
+  margin-top: 5%;
+  color: white;
+  list-style-type: none;
+  font-family: gotham;
+  font-size: 20px;
+}
+
+.casesside {
+  grid-area: c;
+  margin-top: 5%;
+  color: white;
+  list-style-type: none;
+  font-family: gotham;
+  font-size: 20px;
+}
+
+.services {
+  grid-area: d;
+  margin-top: 5%;
+  color: white;
+  list-style-type: none;
+  font-family: gotham;
+  font-size: 20px;
+}
+
+.karriereside {
+  grid-area: e;
+  margin-top: 5%;
+  color: white;
+  list-style-type: none;
+  font-family: gotham;
+  font-size: 20px;
+}
+
+.nyt {
+grid-area: f;
+margin-top: 5%;
+color: white;
+  list-style-type: none;
+  font-family: gotham;
+  font-size: 20px;
+}
+
+.events {
+  grid-area: g;
+  margin-top: 5%;
+  color: white;
+  list-style-type: none;
+  font-family: gotham;
+  font-size: 20px;
+
+}
+
+.pentia {
+  grid-area: h;
+  margin-top: 5%;
+  color: white;
+  list-style-type: none;
+  font-family: gotham;
+  font-size: 20px;
+
+}
 
   .pentagonplace {
     margin-top: 50%;
@@ -1622,7 +1680,7 @@ ul.menukarrierestor {
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
-    color: rgb(114, 144, 150);
+    color: #FFF;
 }
 
 .swiper .swiper-pagination-bullet-active {
