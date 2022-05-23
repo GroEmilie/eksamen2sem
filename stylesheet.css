@@ -158,7 +158,7 @@ ul.menu:hover {
 
  .headervideo {
    position: absolute;
-   margin-top: 5%;
+   margin-top: 125px;
    z-index: -1;
    grid-area: a;
   width: 100%;
@@ -1360,7 +1360,6 @@ button.lightgreen {
      text-align: center;
      padding: 30px;
      background-color: white;
-  
   }
   
 
@@ -1475,9 +1474,7 @@ button.lightgreen {
     right: 2%;
     display: none;
   }
-  /* #slide-wrapper:hover .arrow {
-    opacity: 1;
-  } */
+
   @media (max-width: 900px){
     .slide-text-wrapper {
      width: 95%; 
@@ -1487,7 +1484,6 @@ button.lightgreen {
 h1.sliderh1 {
   text-align: center;
   margin-top: 10%;
-  
 }
 
 
@@ -1792,14 +1788,14 @@ h3 {
 
 
 
-.casesside {
+li.casesside {
     grid-area: c;
     font-size: 22px;
     padding-top: 75px;
     cursor: pointer;
 }
 
-.casesside:hover {
+li.casesside:hover {
   color:var(--blå);
 }
 
@@ -1814,14 +1810,14 @@ h3 {
   color:var(--blå);
 }
 
-.karriereside {
+li.karriereside {
     grid-area: e;
     font-size: 22px;
     padding-top: 75px;
     cursor: pointer;
 }
 
-.karriereside:hover {
+li.karriereside:hover {
   color:var(--blå);
 }
 
@@ -3703,9 +3699,7 @@ h3 {
   padding: 0;
 }
 
-body {
-overflow-x: hidden;
-}
+
 #slide-wrapper {
 height: 75vh;
 background-size: cover;
@@ -3884,11 +3878,13 @@ img.billedeslider1 {
 /* #slide-wrapper:hover .arrow {
   opacity: 1;
 } */
+
+}
+
 @media (max-width: 900px){
   .slide-text-wrapper {
    width: 95%; 
   }
-}
 }
 
 
