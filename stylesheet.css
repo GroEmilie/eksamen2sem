@@ -1764,30 +1764,32 @@ h3 {
 
   box.greenbox {
     grid-area: a;
-    height: 100%;
+    z-index: 1;
+    height: 515px;
     width:100%
   }
 
-  .pentiavideo {
-    grid-area: a;
-    width: 100%;
-    height: 100%;
-  }
+ .clientfoto {
+   grid-area: a;
+   margin-top: 40px;
+   width: 700px;
+   height: 515px;
+ }
 
   button.green {
     grid-area: a;
     margin-top: 60%;
     margin-left:75%;
-    height: 125px;
-    width: 400px;
-    text-align: start;
-    font-size: 30px;
+    height: 80px;
+    width: 330px;
+    padding-top: 20px;
+    font-size: 25px;
   }
 
   .titelgreen {
     grid-area:b;
     font-size: 35px;
-    margin-top: 30%;
+    margin-top: 20%;
     height: 100%;
     width:100%;
 
@@ -1795,7 +1797,7 @@ h3 {
 
   p.karrierep {
     grid-area: b;
-    margin-top: 40%;
+    margin-top: 30%;
     font-size: 25px;
     padding: 0% 20% 0% 20%;
     text-align: center;
@@ -1813,37 +1815,38 @@ h3 {
   box.bluebox {
    grid-area: b;
    z-index: 1;
-   width: 100%;
-   height: 100%;
+   height: 515px;
+   width:100%
   }
 
-  .teststock {
+  .pentiaplace {
     grid-area: b;
-    width: 100%;
-    height: 100%;
+    margin-top: 40px;
+    width: 700px;
+    height: 515px;
+  
   }
 
   button.blue {
     grid-area: a;
-    z-index: 1;
-    margin-top: 60%;
-    margin-left:0%;
-    height: 125px;
-    width: 400px;
-    text-align: start;
-    font-size: 30px;
+    margin-top: 48%;
+    margin-left:75%;
+    height: 80px;
+    width: 330px;
+    padding-top: 20px;
+    font-size: 25px;
   }
 
   .titelblue {
     grid-area: a;
     font-size: 35px;
-    margin-top: 30%;
+    margin-top: 20%;
   }
   
 
   p.karrierepvenstre {
     grid-area: a;
-    margin-top: 40%;
+    margin-top: 30%;
     font-size: 25px;
     text-align: center;
     padding: 0% 20% 0% 20%;
@@ -1857,34 +1860,34 @@ h3 {
     "a b";
   }
 
-  .lightgreenbox {
+  box.lightgreenbox {
     grid-area: a;
-    width: 100%;
-    height: 100%;
+    height: 515px;
+    width: 700px;
   }
 
-  .lokationpentia {
+  .poolpentia {
     grid-area: a;
-    width: 50%;
-    height: 50%;
+    margin-top: 40px;
+    width: 700px;
+    height: 515px;
 
   }
 
   button.lightgreen {
     grid-area: a;
-    z-index: 1;
-    margin-top: 50%;
+    margin-top: 48%;
     margin-left:75%;
-    height: 125px;
-    width: 400px;
-    text-align: start;
-    font-size: 30px;
+    height: 80px;
+    width: 330px;
+    padding-top: 20px;
+    font-size: 25px;
   }
 
   .titellightgreen {
     grid-area: b;
     font-size: 35px;
-    margin-top: 30%;
+    margin-top: 20%;
     height: 100%;
     width:100%;
   }
@@ -1899,31 +1902,31 @@ h3 {
 
   .redbox {
    grid-area: b;
-   width: 100%;
-   height: 100%;
+   height: 515px;
+   width:100%
   }
 
   .motion {
     grid-area: b;
-    width: 100%;
-    height: 100%;
+    margin-top: 40px;
+    width: 700px;
+    height: 515px;
   }
 
   button.red {
     grid-area: a;
-    z-index: 1;
-    margin-top: 60%;
+    margin-top: 48%;
     margin-left:75%;
-    height: 125px;
-    width: 400px;
-    text-align: start;
-    font-size: 30px;
+    height: 80px;
+    width: 330px;
+    padding-top: 20px;
+    font-size: 25px;
   }
 
   .titelred {
     grid-area: a;
-    font-size: 50px;
-    margin-top: 30%;
+    font-size: 35px;
+    margin-top: 20%;
     height: 100%;
     width:100%;
   }
@@ -1941,28 +1944,13 @@ h3 {
     "a b";
   }
 
-  .greenbox {
-    grid-area: a;
-   width: 100%;
-   height: 100%;
-  }
 
   .freestock1 {
     grid-area: a;
-    width: 100%;
-    height: 100%;
+    margin-top: 40px;
+    width: 700px;
+    height: 515px;
 
-  }
-
-  button.green {
-    grid-area: a;
-    z-index: 1;
-    margin-top: 60%;
-    margin-left:75%;
-    height: 125px;
-    width: 400px;
-    text-align: start;
-    font-size: 30px;
   }
 
   .titelgreen {
@@ -1979,19 +1967,18 @@ h3 {
   
     .freestock2 {
       grid-area: b;
-      width: 100%;
-      height: 100%;
+      margin-top: 40px;
+      width: 700px;
+      height: 515px;
     }
   
     button.blue {
       grid-area: a;
-      z-index: 1;
     }
   
     .titelblue {
       grid-area: a;
     }
-    
   
     p.karrierepvenstre {
       grid-area: a;
@@ -2007,8 +1994,9 @@ h3 {
 
     .freestock3 {
       grid-area: a;
-      width: 100%;
-      height: 100%;
+      margin-top: 40px;
+      width: 700px;
+      height: 515px;
     }
 
     .greatplace {
