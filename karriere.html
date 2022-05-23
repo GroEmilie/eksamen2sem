@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <script src="karriere.js" defer></script>
     <title>Karriere ved Pentia</title>
 </head>
 <body>
@@ -128,10 +129,111 @@
 
             <!-- det siger kollegaerne slider -->
             <div class="detsigerkollegaerne">
-                <h1 class="sliderh1">DET SIGER KOLLEGAERNE</h1>
-                <div class="slider"></div>
-                <!-- her skal der være billede og paragraf  -->
+                <h1 class="sliderh1">DET SIGER KOLLEGAERNE</h1>  
             </div>
+
+            <!-- JS SLIDER -->
+            <div id="slide-wrapper">
+                <div id="left" class="arrow prev"onclick="controlSlide(true, null)"><</div>
+                
+                <!-- !!! FØRSTE SLIDER !!! -->
+            <div class="slide active shadow" id="one" style="transform: translateX(0)">
+                <div class="slide-text-wrapper">
+                     <div class="title"><b>Henrik, 36</b> { <br><b>IT-ekspert</b><br> }</div>
+                     <div class="slidertekstpic">
+                        <div class="slide-text">“Gennem årene hos Pentia har jeg arbejdet med både store og små, 
+                            kendte og ukendte kunder i mange forskellige afskygninger. Jeg 
+                            sætter pris på variationen, på mine gode kolleger og på den generelle 
+                            positive stemning og attitude. Derud over er det Europas sjoveste 
+                            arbejdsplads, og dét er jeg fuldstændig enig i. Der er aldrig en kedelig 
+                            dag på job, og det giver en helt speciel dynamik og arbejdsglæde!” 
+                            </div>
+                            <div class="slide-text-wrapper">
+                                <div class="slide-text small">
+                                    <img class="billedeslider" src="billeder/henrikgrove.jpeg" alt="Billede af Henrik Pentia">
+                                    <img class="billedeslider1" src="billeder/henriksjov.jpg" alt="Billede af en sjov Henrik Pentia"> 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+                <!-- !!! ANDET SLIDER !!! -->
+            <div class="slide inactive shadow" id="two" style="flex-direction: row-reverse">
+                <div class="slide-text-wrapper">
+                    <div class="title"><b>Jeanett, 29</b> { <br><b>designer</b><br> }</div>
+                    <div class="slidertekstpic">
+                       <div class="slide-text">“Gennem årene hos Pentia har jeg arbejdet med både store og små, 
+                           kendte og ukendte kunder i mange forskellige afskygninger. Jeg 
+                           sætter pris på variationen, på mine gode kolleger og på den generelle 
+                           positive stemning og attitude. Derud over er det Europas sjoveste 
+                           arbejdsplads, og dét er jeg fuldstændig enig i. Der er aldrig en kedelig 
+                           dag på job, og det giver en helt speciel dynamik og arbejdsglæde!” 
+                           </div>
+                           <div class="slide-text-wrapper">
+                               <div class="slide-text small">
+                                   <img class="billedeslider" src="billeder/hjea.jpg" alt="Billede af Henrik Pentia">
+                                   <img class="billedeslider1" src="billeder/hjeasjov.jpg" alt="Billede af en sjov Henrik Pentia"> 
+                               </div>
+                           </div>
+                   </div>
+               </div>
+            </div>
+    
+                <!-- !!! TREDJE SLIDER !!! -->
+            <div class="slide inactive shadow" id="three" style="flex-direction: row-reverse">
+                <div class="slide-text-wrapper">
+                    <div class="title"><b>Gro, 26</b> { <br>udvikler<br> }</div>
+                    <div class="slidertekstpic">
+                       <div class="slide-text">“Gennem årene hos Pentia har jeg arbejdet med både store og små, 
+                           kendte og ukendte kunder i mange forskellige afskygninger. Jeg 
+                           sætter pris på variationen, på mine gode kolleger og på den generelle 
+                           positive stemning og attitude. Derud over er det Europas sjoveste 
+                           arbejdsplads, og dét er jeg fuldstændig enig i. Der er aldrig en kedelig 
+                           dag på job, og det giver en helt speciel dynamik og arbejdsglæde!” 
+                           </div>
+                           <div class="slide-text-wrapper">
+                               <div class="slide-text small">
+                                   <img class="billedeslider" src="billeder/gro.jpg" alt="Billede af Henrik Pentia">
+                                   <img class="billedeslider1" src="billeder/grosjov.jpg" alt="Billede af en sjov Henrik Pentia"> 
+                               </div>
+                           </div>
+                   </div>
+               </div>
+            </div>
+            
+                <!-- !!! FJERDE SLIDER !!! -->
+            <div class="slide inactive shadow" id="four" style="flex-direction: row-reverse">
+                <div class="slide-text-wrapper">
+                    <div class="title"><b>Peter, 30</b> { <br>IT-ekspert<br> }</div>
+                    <div class="slidertekstpic">
+                       <div class="slide-text">“Gennem årene hos Pentia har jeg arbejdet med både store og små, 
+                           kendte og ukendte kunder i mange forskellige afskygninger. Jeg 
+                           sætter pris på variationen, på mine gode kolleger og på den generelle 
+                           positive stemning og attitude. Derud over er det Europas sjoveste 
+                           arbejdsplads, og dét er jeg fuldstændig enig i. Der er aldrig en kedelig 
+                           dag på job, og det giver en helt speciel dynamik og arbejdsglæde!” 
+                           </div>
+                           <div class="slide-text-wrapper">
+                               <div class="slide-text small">
+                                   <img class="billedeslider" src="billeder/mand.jpg" alt="Billede af Henrik Pentia">
+                                   <img class="billedeslider1" src="billeder/mandsjov.jpg" alt="Billede af en sjov Henrik Pentia"> 
+                               </div>
+                           </div>
+                   </div>
+               </div>
+            </div>
+    
+            <div id="right" class="arrow next" onclick="controlSlide(null, true)">></div>
+        </div>
+        <div id="dot-row" class="dot-row">
+            <div id="dotone" class="dot dot-active" onclick="changeSlide('one')"></div>
+            <div id="dottwo" class="dot" onclick="changeSlide('two')"></div>
+            <div id="dotthree" class="dot" onclick="changeSlide('three')"></div>
+            <div id="dotfour" class="dot" onclick="changeSlide('four')"></div>
+        </div>
+
+
 
             <!-- lige muligheder del -->
             <div class=""></div>
