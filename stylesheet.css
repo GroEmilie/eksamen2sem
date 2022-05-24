@@ -1371,6 +1371,14 @@ button.lightgreen {
   grid-area: a;
 }
 
+.ansvarrespektsjov {
+  width: 40%;
+  margin: 10%;
+  position: relative;
+  left: 20%;
+  
+}
+
 .detsigerkollegaerne {
   display: grid;
   grid-template-columns: auto;
@@ -3747,6 +3755,14 @@ h3 {
   margin-top: 10%;
   margin-bottom: 10%;
   padding: 0;
+}
+
+.ansvarrespektsjov {
+  width: 40%;
+  margin: 10%;
+  position: relative;
+  left: 20%;
+  
 }
 
 
