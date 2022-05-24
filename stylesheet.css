@@ -2238,15 +2238,16 @@ li.karriereside:hover {
       grid-area: a;
       width:80%;
       margin-left: 10%;
+      margin-top: 5%;
     }
 
     .whitetitel {
-      font-size: 50px;
+      font-size: 40px;
       margin-top: 10%;
     }
 
     .whitetext {
-      font-size: 35px;
+      font-size: 30px;
       margin-top: 15%;
     }
 
@@ -2257,6 +2258,8 @@ li.karriereside:hover {
       font-size: 35px;
       border-width: 4px;
       margin-left: 38%;
+      padding-top: 15px;
+      text-align: center;
 
     }
 
