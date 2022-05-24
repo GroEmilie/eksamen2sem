@@ -989,6 +989,16 @@ color: #fff;
 /* karriere side mobil version  */
 
 .pentagonplace {
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "a"
+  "b";
+}
+
+.pentagonplace1 {
   margin-top: 55%;
   display: grid;
   grid-template-columns: auto;
@@ -996,7 +1006,6 @@ color: #fff;
   grid-template-areas: 
   "a"
   "b";
- 
 }
 
 /* .pentagon {
@@ -1475,7 +1484,7 @@ button.lightgreen {
     margin-top: -55px;
   } 
   .dot {
-    border: 2px solid #6B9299;
+    background-color: #b6c5ca;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -1810,6 +1819,15 @@ ul.menu {
     display: none;
 }
 
+.headervideo {
+  position: absolute;
+  margin-top: 125px;
+  z-index: -1;
+  grid-area: a;
+ width: 100%;
+ height: auto;
+ opacity: 1;
+}
 
 .mobilbillede {
     display: none;
@@ -1915,6 +1933,15 @@ li.karriereside:hover {
 }
 
   .pentagonplace {
+    
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "a b";
+  }
+
+  .pentagonplace1 {
     
     display:grid;
     grid-template-columns: auto auto;
@@ -3840,7 +3867,8 @@ img.billedeslider1 {
   margin-top: -60px;
 } 
 .dot {
-  border: 2px solid #6B9299;
+  /* border: 2px solid #6B9299; */
+  background-color: #b6c5ca;
   border-radius: 50%;
   height: 15px;
   width: 15px;
@@ -3849,9 +3877,10 @@ img.billedeslider1 {
 }
 .dot:hover {
   transform: scale(1.1);
+  background-color: #739096;
 }
 .dot-active {
-    background-color: #6B9299;
+  background-color: #739096;
 }
 .title {
     text-align: left;
