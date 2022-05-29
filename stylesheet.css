@@ -1754,6 +1754,7 @@ button.reply {
   color: var(--rød);
   font-size: 20px;
   text-align: center;
+  padding-top: 15px;
   height: 50px;
   width: 200px;
   
@@ -3957,6 +3958,569 @@ img.billedeslider1 {
    width: 95%; 
   }
 }
+
+/* styleguide sektion */
+
+h1.styleguideoverskrift {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+h1.farvevalg {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+.farvecontainer {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+ "a b c d e"
+ "f g h i j"
+ "k l m n o"
+ "p q r s t"
+ ;
+}
+
+.boxblue  {
+  grid-area: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #739096;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode {
+  grid-area: f;
+  margin-top: 6%;
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxgreen  {
+  grid-area: b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #65734b;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode1 {
+  grid-area: g;
+  margin-top: 6%;
+  margin-left: 15%;
+  color: var(--mørkgrøn);
+  font-size: 12px;
+}
+
+.boxred  {
+  grid-area: c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #ff5b4c;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.farvekode2 {
+  grid-area: h;
+  margin-top: 6%;
+  color: var(--rød);
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxlightgreen  {
+  grid-area: d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #7accb1;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode3 {
+  grid-area: i;
+  margin-top: 6%;
+  color: var(--lysegrøn);
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxblack  {
+  grid-area: e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #000;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode4 {
+  grid-area: j;
+  margin-top: 6%;
+  color: #000;
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxlightblue {
+  grid-area: k;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #DBE5E6;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode5 {
+  grid-area: p;
+  margin-top: 6%;
+  color: #DBE5E6;
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxlightdarkgreen {
+  grid-area: l;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #D9dad4;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode6 {
+  grid-area: q;
+  margin-top: 6%;
+  color: #D9dad4;
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxlightred {
+  grid-area: m;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #F5D6D1;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode7 {
+  grid-area: r;
+  margin-top: 6%;
+  color: #F5D6D1;
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxlightlightgreen {
+  grid-area: n;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 20%;
+  color: #FFF;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #E1EDE9;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode8 {
+  grid-area: s;
+  margin-top: 6%;
+  color: #E1EDE9;
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.boxwhite {
+  grid-area: o;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 20%;
+  color: #A4A4A4;
+  height: 100px;
+  width: 60px;
+  font-size: 12px;
+  font-family: gotham light;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
+}
+
+.farvekode9 {
+  grid-area: t;
+  margin-top: 6%;
+  color: #A4A4A4;
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+.skrifttyper {
+  margin-top: 5%;
+  background-color: var(--blåknap);
+  width: 100%;
+  padding: 5% 5% 5% 5%;
+}
+
+.fontvalg {
+  text-align: center;
+}
+
+.knapper {
+  margin-top: 5%;
+}
+
+.knapvalg {
+  text-align: center;
+}
+
+.styleguideblue {
+  border-style: none;
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: var(--blåknap);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+  color: var(--blå);
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.styleguidegreen {
+  border-style: none;
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: var(--mørkgrønknap);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+  color:#65734b;
+  text-align: flex-start;
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.styleguidered {
+  border-style: none;
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: var(--rødknap);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+  color: var(--rød);
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.styleguidelightgreen {
+  border-style: none;
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: var(--lysgrønknap);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+  color: var(--lysegrøn);
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.styleguideboconcept {
+  grid-area: c;
+  border-style: none;
+  background-color: var(--blåknap);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color: var(--blå);
+  font-size: 18px;
+  margin-left: 5%;
+  height: 60px;
+  width: 230px;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.styleguidemiddelfart {
+  border-style: none;
+  background-color: var(--rødknap);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color: var(--rød);
+  font-size: 18px;
+  margin-top: 2%;
+  margin-left: 5%;
+  height: 60px;
+  width: 230px;
+  text-align: center;
+}
+
+.styleguideminetilbud {
+  border-style: none;
+  background-color: var(--mørkgrønknap);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color: var(--mørkgrøn);
+  font-size: 18px;
+  height: 60px;
+  width: 230px;
+  margin-left: 5%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.styleguidenergifyn {
+  border-style: none;
+  background-color: var(--lysgrønknap);
+  box-shadow: 0 0.5px 0 0.5px #e5e2e2;
+  color: var(--lysegrøn);
+  font-size: 18px;
+  height: 60px;
+  width: 230px;
+  margin-left: 5%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.borderknapper {
+  margin-top: 5%;
+  background-color: var(--blå);
+  width: 100%;
+}
+
+.styleguidewhite {
+  height:40px;
+  width:100px;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  background-color: transparent;
+  color: white;
+  border: white;
+  border-style:outset;
+}
+
+.styleguidereply {
+  margin-left: 2%;
+  margin-top: 5%;
+  border-color: var(--rød);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  background-color: transparent;
+  color: var(--rød);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  height: 50px;
+  width: 200px;
+  
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+  h1.styleguideoverskrift {
+   font-size: 50px;
+  }
+  
+  h1.farvevalg {
+    font-size: 40px;
+  }
+
+  .boxblue {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode {
+    font-size: 20px;
+  }
+
+  .boxgreen {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode1 {
+    font-size: 20px;
+  }
+
+  .boxred {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode2 {
+    font-size: 20px;
+  }
+
+  .boxlightgreen {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode3 {
+    font-size: 20px;
+  }
+
+  .boxblack {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode4 {
+    font-size: 20px;
+  }
+
+  .boxlightblue {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode5 {
+    font-size: 20px;
+  }
+
+  .boxlightdarkgreen {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode6 {
+    font-size: 20px;
+  }
+
+  .boxlightred {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode7 {
+    font-size: 20px;
+  }
+
+  .boxlightlightgreen {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode8 {
+    font-size: 20px;
+
+  }
+
+  .boxwhite {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .farvekode9 {
+    font-size: 20px;
+  }
+
+  }
+
+
+
+
 
 
 
