@@ -122,7 +122,7 @@ ul.menu:hover {
  ul.menu a {
     text-decoration: none;
     list-style-type: none;
-    font-family: gotham light;
+    font-family: "gotham light";
  }
  
  ul.menu a:hover {
@@ -176,13 +176,13 @@ ul.menu:hover {
 
 h1 {
   color: var(--blå);
-  font-family: gotham light;
+  font-family: "gotham light";
   font-size: 25px;
 }
 
 h2 {
   color: var(--blå);
-  font-family: gotham;
+  font-family: "gotham";
   font-size: 18px;
 }
 
@@ -196,7 +196,7 @@ button {
 
 .headertekst {
   color: white;
-  font-family: gotham;
+  font-family: "gotham";
   font-size: 15px;
   padding-left: 20px;
   margin: 5% 5% 10% 5%;
@@ -254,7 +254,7 @@ button {
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  font-family: gotham;
+  font-family: "gotham";
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -266,7 +266,7 @@ button {
 .numbertext {
   color: #fff;
   font-size: 12px;
-  font-family: gotham;
+  font-family: "gotham";
   padding: 8px 12px;
   position: absolute;
   top: 5%;
@@ -736,7 +736,7 @@ height: 120%;
 /*  !!!!!! BOCONCEPT MOBIL CASE !!!!!!! */
 .redtextboconcept {
   font-size: 14px;
-  font-family: gotham light;
+  font-family: "gotham light";
   color: var(--rød);
   margin-top: 12%;
   margin-left: 5%;
@@ -751,7 +751,7 @@ h1.boconcepth1 {
 
 p.tekstboconcept {
   font-size: 17px;
-  font-family: gotham light;
+  font-family: "gotham light";
   text-align: left;
   margin-left: 4.5%;
   padding-right: 2%;
@@ -1037,7 +1037,7 @@ color: #fff;
   margin-left: 5%;
   font-size: 14px;
   padding: 0% 30% 0% 0%;
-  font-family: gotham light;
+  font-family: "gotham light";
   color: var(--rød);
 }
 
@@ -1051,7 +1051,7 @@ h1.aoga {
 .toptekst {
   grid-area: b;
   font-size: 15px;
-  font-family: gotham light;
+  font-family: "gotham light";
   padding: 5% 8% 0% 5%;
 }
 
@@ -1152,7 +1152,7 @@ button.blue {
 .titelblue {
   grid-area: b;
   font-size: 20px;
-  font-family: gotham black;
+  font-family: "gotham black";
   margin-top: 15px;
   text-align: center;
   color: var(--blå);
@@ -1161,7 +1161,7 @@ button.blue {
 p.karrierep {
   grid-area: c;
   font-size: 15px;
-  font-family: gotham light;
+  font-family: "gotham light";
   text-align: center;
   padding: 5px 5px 5px 5px;
 }
@@ -1169,7 +1169,7 @@ p.karrierep {
 p.karrierepvenstre{
   grid-area: c;
   font-size: 15px;
-  font-family: gotham light;
+  font-family: "gotham light";
   text-align: center;
   padding: 5px 5px 5px 5px;
 }
@@ -1229,7 +1229,7 @@ button.lightgreen {
 .titellightgreen {
   grid-area: b;
   font-size: 20px;
-  font-family: gotham black;
+  font-family: "gotham black";
   margin-top: 15px;
   text-align: center;
   color: var(--lysegrøn);
@@ -1281,7 +1281,7 @@ button.red {
 .titelred {
   grid-area: b;
   font-size: 20px;
-  font-family: gotham black;
+  font-family: "gotham black";
   margin-top: 15px;
   text-align: center;
   color: var(--rød);
@@ -1616,7 +1616,7 @@ h1.sliderh1 {
   grid-area: a;
   color:white;
   margin-top: 15%;
-  font-family: gotham light;
+  font-family: "gotham light";
   padding: 10px 10px 10px 10px;
   text-align: center;
 }
@@ -1644,7 +1644,7 @@ button.white {
   margin-left: 5%;
   font-size: 14px;
   padding: 0% 30% 0% 0%;
-  font-family: gotham light;
+  font-family: "gotham light";
   color: var(--rød);
 }
 
@@ -1738,7 +1738,7 @@ h1.jobside {
   grid-area: b;
   margin-top: 10px;
   text-align: center;
-  font-family: gotham light;
+  font-family: "gotham light";
   font-size: 12px;
   color:var(--rød);
 
@@ -1747,7 +1747,7 @@ h1.jobside {
 
 ul.pentiagives{
   height: 300px;
-  font-family: gotham light;
+  font-family: "gotham light";
   font-size: 17px;
   display: flex;
   flex-direction: column;
@@ -1761,7 +1761,7 @@ ul.pentiagives{
 .redtext2 {
   grid-area: b;
   margin-top: 17px;
-  font-family: gotham light;
+  font-family: "gotham light";
   font-size: 17px;
   color:var(--rød);
   margin-left: 5%;
@@ -1798,7 +1798,7 @@ button.reply {
 /*  !!!! FOOTER !!!! */
 
 footer {
-    font-family: gotham;
+    font-family: "gotham";
     font-weight: 300;
     font-size: 15px;
     line-height: 1;
@@ -1871,13 +1871,13 @@ h3 {
   text-align: center;
   margin: 0 auto;
   color: #FFF;
-  font-family: gotham;
+  font-family: "gotham";
   font-size: 2.5vw;
 }
 
   .headertekststor{
     display: flex;
-    font-family: gotham;
+    font-family: "gotham";
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -1909,7 +1909,7 @@ ul.menustorjeanett {
     height: 125px;
     width: 100%;
     list-style-type: none;
-    font-family: 'gotham';
+    font-family: "gotham";
     color: white;
     display: grid;
     grid-template-columns: auto;
@@ -4053,7 +4053,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #739096;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4077,7 +4077,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #65734b;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4102,7 +4102,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #ff5b4c;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
@@ -4127,7 +4127,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #7accb1;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4152,7 +4152,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #000;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4178,7 +4178,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #DBE5E6;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4204,7 +4204,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #D9dad4;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4230,7 +4230,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #F5D6D1;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4256,7 +4256,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #E1EDE9;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
@@ -4282,7 +4282,7 @@ h1.farvevalg {
   height: 100px;
   width: 60px;
   font-size: 12px;
-  font-family: gotham light;
+  font-family: "gotham light";
   background-color: #fff;
   border-radius: 7px;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);;
