@@ -1,8 +1,9 @@
+console.log ('Velkommen til loggen');
 let slideIndex = 1;
 showSlides(slideIndex);
 
 
-// Next/previous controls
+// Næste/forrige controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }

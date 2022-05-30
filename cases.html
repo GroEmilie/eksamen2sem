@@ -13,7 +13,7 @@
 <body>
     <header class="navigation">
         <nav>
-            <video autoplay loop muted class="headervideo" src="billeder/velkommentilPentiabad.mov" alt="En video af Pentias lokation Edisonvej 2, 5000 Odense C Danmark" ></video>
+            <!-- <video autoplay loop muted class="headervideo" src="billeder/velkommentilPentiabad.mov" alt="En video af Pentias lokation Edisonvej 2, 5000 Odense C Danmark" ></video> -->
             <ul class="menu">
                 <li class="dropdown">
                    <img class="logo" src="Billeder/pentialogo.png" alt="Pentias logo">
@@ -34,7 +34,7 @@
              <ul class="menustorjeanett">
              <li><img class="logo" src="Billeder/pentialogo.png" alt="Pentias logo"></li>
              <li class="stratecution"><a href="#">STRATECUTION</a></li>
-             <li class="casesside" onclick="window.location.href='cases.html'" style="color: #739096">CASES</li>
+             <li class="casesside" onclick="window.location.href='cases.html'" style="color: #dbe5e6; text-decoration: underline">CASES</li>
              <li class="services"><a href="#">SERVICES</a></li>
              <li class="karriereside"onclick="window.location.href='karriere.html'">KARRIERE</li>
              <li class="nyt"><a href="#">NYT</a></li>
@@ -44,8 +44,11 @@
             <!-- <p class="headertekst">JOB HOS PENTIA</p> -->
         </nav>
     </header>
-
-
+    <div id="videocontainer">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/714967769?h=954a7755bc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="pentia"></iframe></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <span id="forgroundtekst">DE BEDSTE RESULTATER STARTER MED ET GODT SAMARBEJDE</span>
+        </div>
 <main>
 <div class="boconceptdesktop">
     <div class="boconceptmain">
@@ -92,7 +95,7 @@
     <!-- Slideshow container -->
     <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
+        <!-- Billeder med nummer og tekst -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
           <img src="billeder/lmwindfoto.jpg" style="width:100%">
@@ -111,13 +114,13 @@
           <div class="text">BRÜEL KJÆR</div>
         </div>
       
-        <!-- Next and previous buttons -->
+        <!-- Næste og forrige knapper -->
         <a class="forrige" onclick="plusSlides(-1)">&#10094;</a>
         <a class="naeste" onclick="plusSlides(1)">&#10095;</a>
       </div>
       <br>
       
-      <!-- The dots/circles -->
+      <!-- Prikkerne nede i bunden -->
       <div style="text-align:center">
         <span class="prik" onclick="currentSlide(1)"></span>
         <span class="prik" onclick="currentSlide(2)"></span>
