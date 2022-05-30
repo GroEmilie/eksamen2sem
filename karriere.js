@@ -1,11 +1,12 @@
-var slideIds = [{slider: 'one', dot: 'dotone', count: 0}, 
+let slideIds = [{slider: 'one', dot: 'dotone', count: 0}, 
                 {slider: 'two', dot: 'dottwo', count: 1}, 
                 {slider: 'three', dot: 'dotthree', count: 2},                       
                 {slider: 'four', dot: 'dotfour', count: 3}];
-var count = 0;
+let count = 0;
 
 
-var slider = setInterval(setInt, 20000)
+let slider = setInterval(setInt, 20000)
+
 
 //main interval function
 function setInt(){
@@ -18,6 +19,7 @@ function setInt(){
     document.getElementById(curSlide.slider).style.transform = 'translateX(0px)';
     document.getElementById(curSlide.dot).classList.add('dot-active');
 }
+
 // takes the slide that has been shifted off the screen left back around to the right side
 function slideRight(id){
     setTimeout(function() {
@@ -52,23 +54,22 @@ function changeSlide(id, clickedControls){
 
 let slides = document.getElementById('slide-wrapper').querySelectorAll('div.slide');
 // stop slider on hover and add styles for hover
-
-for (var i=0; i<slides.length; i++){
+// var i og lægger en oven i 
+for (let i=0; i<slides.length; i++){
   slides[i].addEventListener('mouseenter', function(e){
     console.log('in')
     clearInterval(slider);
-    document.getElementById('left').style.opacity = '1';
-    document.getElementById('right').style.opacity = '1';
+    document.getElementById('left').style.opacity = '3';
+    document.getElementById('right').style.opacity = '3';
     this.style.transform = 'scale(1.01)';
-    this.classList.add('heavy-shadow');
 })
+
 // continue slider and remove hover styles
   slides[i].addEventListener('mouseleave', function(e){
     console.log('out')
     slider = setInterval(setInt, 20000);  
     document.getElementById('left').style.opacity = '0.75';
     document.getElementById('right').style.opacity = '0.75';
-    this.classList.remove('heavy-shadow');
     this.style.transform = 'scale(1)';
 })
 }

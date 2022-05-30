@@ -104,7 +104,7 @@ ul.menu:hover {
    width: 100%;
    text-decoration: none;
    display: block;
-   text-align: flex-end;
+   text-align: right;
  }
  
  .dropdown-content a:hover {
@@ -148,7 +148,7 @@ ul.menu:hover {
  
  .item {
      width: 100%;
-     text-align: flex-end;
+     text-align: right;
      display: none;
      font-size: 20px;
      padding: 10px;
@@ -925,7 +925,6 @@ img.boconcept4hvid {
 .linje {
   color: var(--brun);
   text-align: center;
-  padding-top: -40px;
   padding-bottom: 40px;
 }
 
@@ -1076,11 +1075,10 @@ h1.aoga {
   
 }
 
-box.greenbox {
+.greenbox {
   grid-area: a;
   z-index: 1;
   margin-top: 30px;
-  height: 240px;
   width:100%;
   background-color: rgba(103, 114, 80, 25%);
 }
@@ -1093,7 +1091,6 @@ button.green {
   background-color: var(--mørkgrønknap);
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
   color:#65734b;
-  text-align: flex-start;
   margin-left: 46.6%;
   height: 50px;
   width: 200px;
@@ -1130,11 +1127,10 @@ button.green {
   height: 240px;
 }
 
-box.bluebox {
-  grid-area: a;
+.bluebox {
+  grid-area: b;
   z-index: 1;
   margin-top: 39px;
-  height: 240px;
   width:100%;
   background-color: rgba(115, 144, 150, 25%);
 }
@@ -1198,14 +1194,22 @@ p.karrierepvenstre{
 
 }
 
-box.lightgreenbox {
+.lightgreenbox {
   grid-area: a;
   z-index: 1;
   margin-top: 40px;
-  height: 240px;
   width:100%;
   background-color: rgba(140, 195, 172, 25%);
 }
+
+.lightgreenbox1 {
+  grid-area: a;
+  z-index: 1;
+  margin-top: 40px;
+  width: 84%;
+  background-color: rgba(140, 195, 172, 25%);
+}
+
 
 button.lightgreen {
   grid-area: a;
@@ -1707,7 +1711,7 @@ h1.jobside {
   "b"
 }
 
-box.jobsidebox1 {
+.jobsidebox1 {
   margin-top: 10%;
   background-color: var(--mørkgrønknap);
   height: fit-content;
@@ -1725,7 +1729,7 @@ box.jobsidebox1 {
 }
 
 .annoncetitel {
-  grid: a;
+  grid-area: a;
   text-align: center;
   
 }
@@ -1742,7 +1746,6 @@ box.jobsidebox1 {
 
 
 ul.pentiagives{
-  background-color: none;
   height: 300px;
   font-family: gotham light;
   font-size: 17px;
@@ -1870,7 +1873,6 @@ h3 {
   color: #FFF;
   font-family: gotham;
   font-size: 2.5vw;
-  letter-spacing: 0.5;
 }
 
   .headertekststor{
@@ -2335,7 +2337,6 @@ li.karriereside:hover {
 
 .redtextfrontend {
   grid-area: a;
-  margin-top: none;
   margin-left: 30%;
   font-size: 25px;
   padding: 0% 0% 0% 0%;
@@ -4334,7 +4335,6 @@ h1.farvevalg {
   background-color: var(--mørkgrønknap);
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
   color:#65734b;
-  text-align: flex-start;
   height: 50px;
   width: 200px;
   font-size: 18px;
